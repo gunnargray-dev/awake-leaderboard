@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!--
+    ____                  __          _ __
+   / __ \___  _________  / /__  _  __(_) /___  __
+  / /_/ / _ \/ ___/ __ \/ / _ \| |/_/ / __/ / / /
+ / ____/  __/ /  / /_/ / /  __/>  </ / /_/ /_/ /
+/_/    \___/_/  / .___/_/\___/_/|_/_/\__/\__, /
+               /_/                      /____/
+
+    Created with Perplexity Computer
+    https://www.perplexity.ai/computer
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awake Leaderboard — How healthy is your open-source project?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./components.css">
+  <meta name="description" content="Public leaderboard scoring and ranking open-source Python projects on health, complexity, security, dead code, and test coverage.">
+  <meta name="generator" content="Perplexity Computer">
+  <meta property="og:title" content="Awake Leaderboard — How healthy is your open-source project?">
+  <meta property="og:description" content="Public leaderboard scoring and ranking open-source Python projects on health, complexity, security, dead code, and test coverage.">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <a href="#main-content" class="sr-only" style="position:absolute;top:0;left:0;padding:var(--space-2) var(--space-4);background:var(--color-primary);color:var(--color-text-inverse);z-index:1000;font-size:var(--text-sm);">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <a href="#" class="logo-link" aria-label="Awake Leaderboard home">
+          <svg class="logo-icon" width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <path d="M16 4L6 18h6l-2 10 12-14h-6l2-10z" fill="currentColor" opacity="0.9"/>
+            <circle cx="16" cy="14" r="3" fill="var(--color-bg)"/>
+          </svg>
+          <span class="logo-text">Awake</span>
+        </a>
+      </div>
+      <nav class="header-right" aria-label="Primary">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="header-link" aria-label="GitHub repository">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <button class="theme-toggle" data-theme-toggle aria-label="Switch to light mode">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-badge">
+          <svg width="16" height="16" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <path d="M16 4L6 18h6l-2 10 12-14h-6l2-10z" fill="currentColor" opacity="0.9"/>
+            <circle cx="16" cy="14" r="3" fill="var(--color-bg)"/>
+          </svg>
+          <span>Open-source code health</span>
+        </div>
+        <h1 class="hero-title">Awake Leaderboard</h1>
+        <p class="hero-tagline">How healthy is your open-source project?</p>
+        <p class="hero-desc">Automated code analysis scoring 50 Python projects on health, complexity, security, dead code, and test coverage. Each project receives a composite Awake Score (0–100) and letter grade.</p>
+        <div class="hero-stats" id="heroStats">
+          <div class="hero-stat">
+            <span class="hero-stat-value" data-count="50">50</span>
+            <span class="hero-stat-label">Projects scored</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-value" data-count="82" id="avgScore">82</span>
+            <span class="hero-stat-label">Average score</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-value" data-count="12">12</span>
+            <span class="hero-stat-label">A-grade projects</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERBOARD -->
+    <section class="leaderboard-section">
+      <div class="leaderboard-inner">
+        <!-- Controls -->
+        <div class="controls">
+          <div class="search-wrap">
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            <input type="text" id="searchInput" class="search-input" placeholder="Search projects..." aria-label="Search projects">
+          </div>
+          <div class="category-pills" id="categoryPills" role="tablist" aria-label="Filter by category">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Layout: sidebar + table -->
+        <div class="leaderboard-layout">
+          <!-- Category Sidebar (desktop) -->
+          <aside class="category-sidebar" id="categorySidebar" aria-label="Categories">
+            <h2 class="sidebar-title">Categories</h2>
+            <ul class="category-list" id="categoryList" role="list">
+              <!-- Populated by JS -->
+            </ul>
+          </aside>
+
+          <!-- Table -->
+          <div class="table-container">
+            <div class="table-header-info">
+              <span class="result-count" id="resultCount">50 projects</span>
+              <button class="btn-ghost-sm" id="resetFilters" style="display:none;">Clear filter</button>
+            </div>
+            <div class="table-scroll">
+              <table class="leaderboard-table" id="leaderboardTable">
+                <thead>
+                  <tr>
+                    <th class="col-rank" data-sort="rank" aria-sort="ascending">
+                      <button class="sort-btn active"># <span class="sort-arrow">↑</span></button>
+                    </th>
+                    <th class="col-project" data-sort="name">
+                      <button class="sort-btn">Project <span class="sort-arrow"></span></button>
+                    </th>
+                    <th class="col-score" data-sort="score">
+                      <button class="sort-btn">Score <span class="sort-arrow"></span></button>
+                    </th>
+                    <th class="col-grade">Grade</th>
+                    <th class="col-stars" data-sort="stars">
+                      <button class="sort-btn">Stars <span class="sort-arrow"></span></button>
+                    </th>
+                    <th class="col-category hide-mobile">Category</th>
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                  <!-- Populated by JS -->
+                </tbody>
+              </table>
+            </div>
+            <div class="empty-state" id="emptyState" style="display:none;">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-text-faint)" stroke-width="1.5" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M8 11h6" stroke-linecap="round"/></svg>
+              <p>No projects match your search.</p>
+              <button class="btn-ghost-sm" onclick="resetAll()">Clear filters</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT DETAIL MODAL -->
+    <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle" style="display:none;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title-row">
+            <h2 id="modalTitle" class="modal-project-name"></h2>
+            <span class="modal-grade" id="modalGrade"></span>
+          </div>
+          <button class="modal-close" id="modalClose" aria-label="Close detail panel">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-meta" id="modalMeta"></div>
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">Score Breakdown</h3>
+          <div class="modal-score-main" id="modalScoreMain"></div>
+          <div class="modal-bars" id="modalBars"></div>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">Grade Explanation</h3>
+          <p class="modal-grade-explain" id="modalGradeExplain"></p>
+        </div>
+
+        <div class="modal-actions">
+          <a href="#" id="modalGithub" class="btn-primary" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            View on GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- STATS SECTION -->
+    <section class="stats-section">
+      <div class="stats-inner">
+        <h2 class="stats-title">Leaderboard Overview</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-card-value" id="statTotal">50</span>
+            <span class="stat-card-label">Total Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card-value" id="statAvg">82.1</span>
+            <span class="stat-card-label">Average Score</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card-value" id="statHighest">96.2</span>
+            <span class="stat-card-label">Highest Score</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card-value" id="statMedian">82.5</span>
+            <span class="stat-card-label">Median Score</span>
+          </div>
+        </div>
+
+        <div class="stats-charts">
+          <div class="chart-card">
+            <h3 class="chart-title">Grade Distribution</h3>
+            <div class="grade-chart" id="gradeChart"></div>
+          </div>
+          <div class="chart-card">
+            <h3 class="chart-title">Top Categories</h3>
+            <div class="category-chart" id="categoryChart"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-text">Powered by <strong>Awake</strong></p>
+      <div class="footer-links">
+        <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer" class="footer-link">Created with Perplexity Computer</a>
+        <span class="footer-divider">·</span>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
