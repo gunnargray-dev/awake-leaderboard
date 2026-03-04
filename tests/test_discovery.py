@@ -193,7 +193,8 @@ class TestSeedProjects:
             "serialization", "cloud-sdk", "devops", "networking",
             "cli-tool", "template-engine", "machine-learning",
             "ai-framework", "tui-framework", "utilities",
-            "task-queue", "security",
+            "task-queue", "security", "data-viz",
+            "workflow-orchestration",
         }
         for seed in get_seed_projects():
             assert seed["category"] in valid_categories, (
@@ -241,3 +242,28 @@ class TestSeedProjects:
             assert keys[(owner, repo)] == category, (
                 f"Wrong category for {owner}/{repo}: expected {category}"
             )
+
+    def test_session10_expanded_projects_present(self):
+        seeds = get_seed_projects()
+        keys = {(s["owner"], s["repo"]): s["category"] for s in seeds}
+        expected = [
+            ("astral-sh", "uv", "package-manager"),
+            ("microsoft", "pyright", "type-checker"),
+            ("pre-commit", "pre-commit", "code-quality"),
+            ("streamlit", "streamlit", "data-viz"),
+            ("gradio-app", "gradio", "data-viz"),
+            ("apache", "airflow", "workflow-orchestration"),
+            ("PrefectHQ", "prefect", "workflow-orchestration"),
+            ("mwaskom", "seaborn", "data-science"),
+            ("huggingface", "datasets", "machine-learning"),
+            ("BerriAI", "litellm", "ai-framework"),
+        ]
+        for owner, repo, category in expected:
+            assert (owner, repo) in keys, f"Missing seed: {owner}/{repo}"
+            assert keys[(owner, repo)] == category, (
+                f"Wrong category for {owner}/{repo}: expected {category}"
+            )
+
+    def test_total_seed_count_is_75(self):
+        seeds = get_seed_projects()
+        assert len(seeds) == 75

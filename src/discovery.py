@@ -230,6 +230,17 @@ _SEED_PROJECTS: list[tuple[str, str, str]] = [
     ("PyCQA", "bandit", "security"),
     ("semgrep", "semgrep", "security"),
     ("pulumi", "pulumi", "devops"),
+    # Session 10 -- expand to 75 projects
+    ("astral-sh", "uv", "package-manager"),
+    ("microsoft", "pyright", "type-checker"),
+    ("pre-commit", "pre-commit", "code-quality"),
+    ("streamlit", "streamlit", "data-viz"),
+    ("gradio-app", "gradio", "data-viz"),
+    ("apache", "airflow", "workflow-orchestration"),
+    ("PrefectHQ", "prefect", "workflow-orchestration"),
+    ("mwaskom", "seaborn", "data-science"),
+    ("huggingface", "datasets", "machine-learning"),
+    ("BerriAI", "litellm", "ai-framework"),
 ]
 
 
