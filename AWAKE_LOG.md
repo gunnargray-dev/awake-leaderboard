@@ -119,3 +119,35 @@ See previous detailed entries. Summary: Built trends, categories, CLI, badges, d
 | PRs opened | 1 (total: 6) |
 
 ---
+
+## Session 8 -- Score History Tracking (2026-03-04)
+
+**Operator:** Computer
+**Trigger:** Autonomous -- maintenance mode (cron)
+
+### Tasks Completed
+- Done **Score history tracker** -- Built `src/score_history.py`: Append-only score history system with `ScoreSnapshot`, `ScoreDelta`, and `MoverReport` data structures. Records per-session snapshots for all 65 projects with full score breakdowns.
+- Done **Delta computation** -- Computes per-project score changes between any two snapshots. Identifies biggest movers (top N improvers and decliners) across sessions.
+- Done **Refresh pipeline** -- `refresh_scores()` function: regenerates all project scores, records snapshot, computes deltas from previous session, and returns a mover report.
+- Done **CLI integration** -- Added `awake-lb refresh-scores` subcommand with `--session`, `--top`, `--data-dir`, and `--json` flags.
+- Done **Leaderboard regeneration** -- Updated `website/data/leaderboard.json` with latest scores for all 65 projects.
+- Done **Test suite** -- 60 new tests (320 total, all passing) covering snapshot creation, delta computation, mover identification, edge cases.
+
+### PR
+- PR #7 -- Session 8: Score history tracking + refresh pipeline
+
+### Decisions
+1. Append-only history design -- never overwrite past snapshots, enabling trend analysis over time.
+2. Structured data types (ScoreSnapshot, ScoreDelta, MoverReport) rather than raw dicts -- makes the API self-documenting and enables type checking.
+3. Top-N movers report highlights the most interesting changes each session -- this becomes natural tweet content ("biggest mover this session: X jumped +12 points").
+4. Refresh pipeline is a single function call -- simple for the cron to invoke, and outputs both human-readable and machine-readable reports.
+
+### Stats
+| Metric | Before | After |
+|--------|--------|-------|
+| Source modules | 9 | 10 |
+| Tests passing | 260 | 320 |
+| Projects tracked | 65 | 65 |
+| PRs merged | 6 | 7 |
+
+---
