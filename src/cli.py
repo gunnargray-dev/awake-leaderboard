@@ -405,6 +405,22 @@ def cmd_digest(args: argparse.Namespace) -> None:
     print(md)
 
 
+def cmd_generate_json(args: argparse.Namespace) -> None:
+    """Generate website/data/leaderboard.json from seed data."""
+    from src.generate_leaderboard import generate_leaderboard
+    import json
+
+    data = generate_leaderboard()
+    output = Path(args.output)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(data, indent=2) + "\n")
+
+    total = data["metadata"]["total_projects"]
+    scores = [p["score"] for p in data["projects"]]
+    avg = sum(scores) / len(scores)
+    print(f"Generated {output} with {total} projects (avg score: {avg:.1f})")
+
+
 def cmd_badge(args: argparse.Namespace) -> None:
     """Print badge URLs and Markdown for a project."""
     from src.models import init_db
@@ -522,6 +538,11 @@ def build_parser() -> argparse.ArgumentParser:
     p_badge = sub.add_parser("badge", help="Print badge URLs for a project")
     p_badge.add_argument("project", help="owner/repo")
 
+    # generate-json
+    p_gen = sub.add_parser("generate-json", help="Generate website leaderboard.json")
+    p_gen.add_argument("-o", "--output", default="website/data/leaderboard.json",
+                       help="Output path (default: website/data/leaderboard.json)")
+
     return parser
 
 
@@ -547,6 +568,7 @@ def main(argv: Optional[list[str]] = None) -> None:
         "compare": cmd_compare,
         "digest": cmd_digest,
         "badge": cmd_badge,
+        "generate-json": cmd_generate_json,
     }
 
     handler = commands.get(args.command)
