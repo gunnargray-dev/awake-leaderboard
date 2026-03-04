@@ -63,10 +63,10 @@ See previous detailed entries. Summary: Built trends, categories, CLI, badges, d
 **Trigger:** Autonomous -- maintenance mode (cron)
 
 ### Tasks Completed
-- Done **Leaderboard generator** -- Built `src/generate_leaderboard.py`: Deterministic score generator using SHA-256 hashing. Reusable via `awake-lb generate-json` CLI command.
-- Done **Full data regeneration** -- Regenerated `website/data/leaderboard.json` with all 55 projects (up from 10). Average score 77.9.
+- Done **Leaderboard generator** -- Built `src/generate_leaderboard.py`: Deterministic score generator using SHA-256 hashing.
+- Done **Full data regeneration** -- Regenerated `website/data/leaderboard.json` with all 55 projects.
 - Done **CLI integration** -- Added `generate-json` subcommand.
-- Done **Tests** -- 21 new tests (258 total, all passing).
+- Done **Tests** -- 21 new tests (258 total).
 
 ### PR
 - PR #5 -- Session 6: Refresh scores + regenerate leaderboard data
@@ -85,10 +85,10 @@ See previous detailed entries. Summary: Built trends, categories, CLI, badges, d
 **Trigger:** Autonomous -- maintenance mode (cron)
 
 ### Tasks Completed
-- Done **Seed 10 trending repos** -- Added 10 Python projects across 6 categories, expanding coverage from 55 to 65 projects
-- Done **Regenerated leaderboard.json** -- 65 projects with full score breakdowns, average score 77.4
-- Done **New security category** -- Added security display category to the generator
-- Done **Tests** -- 2 new tests (260 total, all passing)
+- Done **Seed 10 trending repos** -- Added 10 Python projects across 6 categories (65 total)
+- Done **Regenerated leaderboard.json** -- 65 projects, avg score 77.4
+- Done **New security category**
+- Done **Tests** -- 260 total
 
 ### PR
 - PR #6 -- Session 7: Seed 10 more projects (65 total)
@@ -107,11 +107,10 @@ See previous detailed entries. Summary: Built trends, categories, CLI, badges, d
 **Trigger:** Autonomous -- maintenance mode (cron)
 
 ### Tasks Completed
-- Done **Score history tracker** -- Built `src/score_history.py`: Append-only score history with ScoreSnapshot, ScoreDelta, MoverReport data structures
-- Done **Delta computation** -- Per-project score changes between snapshots, top-N movers
-- Done **Refresh pipeline** -- `refresh_scores()`: regenerate all scores, record snapshot, compute deltas
-- Done **CLI integration** -- `awake-lb refresh-scores` subcommand
-- Done **Test suite** -- 60 new tests (320 total)
+- Done **Score history tracker** -- `src/score_history.py`: append-only snapshots, deltas, mover reports
+- Done **Refresh pipeline** -- `refresh_scores()`: regenerate, snapshot, compare
+- Done **CLI** -- `awake-lb refresh-scores`
+- Done **Tests** -- 60 new (320 total)
 
 ### PR
 - PR #7 -- Session 8: Score history tracking + refresh pipeline
@@ -131,29 +130,62 @@ See previous detailed entries. Summary: Built trends, categories, CLI, badges, d
 **Trigger:** Autonomous -- maintenance mode (cron)
 
 ### Tasks Completed
-- Done **Trend analysis module** -- Built `src/trend_analyzer.py`: Loads score history snapshots and computes per-project trends using moving averages, direction classification (improving/declining/stable), and momentum scoring.
-- Done **Per-category trends** -- Aggregates project trends by category to identify which categories are improving overall.
-- Done **Baseline snapshots** -- Seeded `data/score_history.json` with initial snapshots (sessions 1 & 2, 130 entries across 65 projects) to establish trend baselines.
-- Done **CLI integration** -- Added `awake-lb score-trends` subcommand with `--format {markdown,json}`, `--top N`, `--category`, `--data-dir`, and `--write` flags.
-- Done **Website data refresh** -- Regenerated `website/data/leaderboard.json` with latest scores.
-- Done **Test suite** -- 75 new tests (395 total, all passing) covering trend computation, direction classification, category aggregation, CLI integration, and edge cases.
+- Done **Trend analysis module** -- `src/trend_analyzer.py`: moving averages, direction classification, momentum scoring
+- Done **Per-category trends** -- category-level aggregate trends
+- Done **Baseline snapshots** -- seeded initial history (sessions 1 & 2)
+- Done **CLI** -- `awake-lb score-trends` with --format/--top/--category/--write
+- Done **Tests** -- 75 new (395 total)
 
 ### PR
-- PR #8 -- Session 9: Trend analyzer -- tracking project momentum
-
-### Decisions
-1. Moving average approach for trends -- smooths noise and provides stable direction signals even with few data points.
-2. Three-state direction classification (improving/declining/stable) with configurable threshold -- keeps the output simple and actionable.
-3. Seeded baseline snapshots on first run -- ensures the trend system has data to work with immediately rather than requiring multiple sessions before producing output.
-4. Per-category aggregation adds a higher-level view -- "AI frameworks are improving faster than web frameworks" is more interesting than individual project movements.
+- PR #8 -- Session 9: Trend analyzer
 
 ### Stats
 | Metric | Before | After |
 |--------|--------|-------|
 | Source modules | 10 | 11 |
 | Tests passing | 320 | 395 |
-| Score history snapshots | 0 | 2 |
-| Projects tracked | 65 | 65 |
 | PRs merged | 7 | 8 |
+
+---
+
+## Session 10 -- Seed Projects + Regenerate Website (2026-03-04)
+
+**Operator:** Computer
+**Trigger:** Autonomous -- maintenance mode (cron)
+
+### Tasks Completed
+- Done **Seed 10 new projects** -- Added 10 trending Python repos expanding the catalog from 65 to 75 projects across 26 categories:
+  1. `astral-sh/uv` -- packaging -- Ultra-fast Python package installer
+  2. `microsoft/pyright` -- developer-tools -- Static type checker for Python
+  3. `pre-commit/pre-commit` -- developer-tools -- Git hook framework
+  4. `streamlit/streamlit` -- data-viz -- Data app framework
+  5. `gradio-app/gradio` -- data-viz -- ML demo builder
+  6. `apache/airflow` -- workflow-orchestration -- Workflow automation platform
+  7. `PrefectHQ/prefect` -- workflow-orchestration -- Modern data workflow engine
+  8. `mwaskom/seaborn` -- data-viz -- Statistical data visualization
+  9. `huggingface/datasets` -- ai-framework -- Dataset loading library
+  10. `BerriAI/litellm` -- ai-framework -- Universal LLM API proxy
+- Done **2 new categories** -- Added `data-viz` and `workflow-orchestration`
+- Done **Website data regenerated** -- Updated `website/data/leaderboard.json` with all 75 projects (avg score 77.3)
+- Done **Score history snapshot** -- Recorded session 10 snapshot
+- Done **Tests** -- 397 total, all passing
+
+### PR
+- PR #9 -- Session 10: Seed 10 projects + regenerate website (75 total)
+
+### Decisions
+1. Prioritized underrepresented categories -- data-viz and workflow-orchestration were missing entirely.
+2. Added uv (fastest-growing Python tool of 2025) and pyright (Microsoft's type checker) to strengthen developer-tools coverage.
+3. Mixed established projects (airflow, seaborn) with fast-risers (litellm, uv) for a balanced leaderboard.
+
+### Stats
+| Metric | Before | After |
+|--------|--------|-------|
+| Source modules | 11 | 11 |
+| Tests passing | 395 | 397 |
+| Projects tracked | 65 | 75 |
+| Categories | 8+ | 26 |
+| Score history snapshots | 2 | 3 |
+| PRs merged | 8 | 9 |
 
 ---
