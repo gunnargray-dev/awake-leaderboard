@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-04T10:15:17Z",
-    "total_projects": 65,
+    "generated_at": "2026-03-04T12:11:41Z",
+    "total_projects": 75,
     "version": "1.1.0"
   },
   "projects": [
@@ -15,7 +15,7 @@
       "forks": 1200,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 91.7,
         "complexity": 97.1,
@@ -35,7 +35,7 @@
       "forks": 1950,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 87.6,
         "complexity": 96.6,
@@ -55,7 +55,7 @@
       "forks": 19700,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 91.0,
         "complexity": 88.8,
@@ -75,7 +75,7 @@
       "forks": 6800,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 84.5,
         "complexity": 97.2,
@@ -95,7 +95,7 @@
       "forks": 10300,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 91.2,
         "complexity": 85.9,
@@ -115,7 +115,7 @@
       "forks": 1300,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 86.2,
         "complexity": 92.8,
@@ -135,7 +135,7 @@
       "forks": 780,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 77.1,
         "complexity": 95.9,
@@ -155,7 +155,7 @@
       "forks": 4800,
       "language": "Python",
       "category": "Async",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 95.2,
         "complexity": 83.0,
@@ -175,7 +175,7 @@
       "forks": 2700,
       "language": "Python",
       "category": "Testing",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 94.1,
         "complexity": 75.4,
@@ -195,7 +195,7 @@
       "forks": 32500,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 95.2,
         "complexity": 73.7,
@@ -215,7 +215,7 @@
       "forks": 3500,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 91.0,
         "complexity": 83.9,
@@ -235,7 +235,7 @@
       "forks": 700,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 86.4,
         "complexity": 93.5,
@@ -255,7 +255,7 @@
       "forks": 2100,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 60.1,
         "complexity": 96.6,
@@ -264,6 +264,26 @@
         "coverage": 92.1
       },
       "rank": 13
+    },
+    {
+      "name": "litellm",
+      "owner": "BerriAI",
+      "description": "",
+      "score": 83.8,
+      "grade": "A-",
+      "stars": 1000,
+      "forks": 100,
+      "language": "Python",
+      "category": "ML/AI",
+      "last_analyzed": "2026-03-04T12:11:41Z",
+      "dimensions": {
+        "health": 92.2,
+        "complexity": 88.9,
+        "security": 78.8,
+        "dead_code": 85.3,
+        "coverage": 67.9
+      },
+      "rank": 14
     },
     {
       "name": "salt",
@@ -275,7 +295,7 @@
       "forks": 5600,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 89.7,
         "complexity": 89.3,
@@ -283,7 +303,7 @@
         "dead_code": 96.8,
         "coverage": 81.6
       },
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "matplotlib",
@@ -295,7 +315,7 @@
       "forks": 7800,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 95.6,
         "complexity": 91.3,
@@ -303,7 +323,7 @@
         "dead_code": 73.2,
         "coverage": 65.1
       },
-      "rank": 15
+      "rank": 16
     },
     {
       "name": "mypy",
@@ -315,7 +335,7 @@
       "forks": 2900,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 64.0,
         "complexity": 97.1,
@@ -323,7 +343,7 @@
         "dead_code": 89.4,
         "coverage": 94.0
       },
-      "rank": 16
+      "rank": 17
     },
     {
       "name": "yt-dlp",
@@ -335,7 +355,7 @@
       "forks": 11800,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 88.1,
         "complexity": 78.6,
@@ -343,7 +363,7 @@
         "dead_code": 94.2,
         "coverage": 56.4
       },
-      "rank": 17
+      "rank": 18
     },
     {
       "name": "langflow",
@@ -355,7 +375,7 @@
       "forks": 21000,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 88.1,
         "complexity": 67.6,
@@ -363,7 +383,7 @@
         "dead_code": 76.1,
         "coverage": 73.9
       },
-      "rank": 18
+      "rank": 19
     },
     {
       "name": "click",
@@ -375,7 +395,7 @@
       "forks": 2200,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 66.1,
         "complexity": 89.8,
@@ -383,7 +403,7 @@
         "dead_code": 83.6,
         "coverage": 98.0
       },
-      "rank": 19
+      "rank": 20
     },
     {
       "name": "flask",
@@ -395,7 +415,7 @@
       "forks": 16500,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 80.0,
         "complexity": 56.3,
@@ -403,7 +423,7 @@
         "dead_code": 98.3,
         "coverage": 97.7
       },
-      "rank": 20
+      "rank": 21
     },
     {
       "name": "jinja",
@@ -415,7 +435,7 @@
       "forks": 1700,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 88.2,
         "complexity": 79.4,
@@ -423,7 +443,7 @@
         "dead_code": 92.9,
         "coverage": 94.3
       },
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "sanic",
@@ -435,7 +455,7 @@
       "forks": 1550,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 61.4,
         "complexity": 93.5,
@@ -443,7 +463,27 @@
         "dead_code": 78.7,
         "coverage": 88.0
       },
-      "rank": 22
+      "rank": 23
+    },
+    {
+      "name": "gradio",
+      "owner": "gradio-app",
+      "description": "",
+      "score": 80.7,
+      "grade": "A-",
+      "stars": 1000,
+      "forks": 100,
+      "language": "Python",
+      "category": "data-viz",
+      "last_analyzed": "2026-03-04T12:11:41Z",
+      "dimensions": {
+        "health": 88.2,
+        "complexity": 77.8,
+        "security": 93.7,
+        "dead_code": 69.6,
+        "coverage": 55.4
+      },
+      "rank": 24
     },
     {
       "name": "scikit-learn",
@@ -455,7 +495,7 @@
       "forks": 25800,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 84.3,
         "complexity": 71.8,
@@ -463,7 +503,7 @@
         "dead_code": 81.7,
         "coverage": 77.0
       },
-      "rank": 23
+      "rank": 25
     },
     {
       "name": "httpx",
@@ -475,7 +515,7 @@
       "forks": 890,
       "language": "Python",
       "category": "HTTP",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 96.6,
         "complexity": 65.2,
@@ -483,7 +523,7 @@
         "dead_code": 80.5,
         "coverage": 67.0
       },
-      "rank": 24
+      "rank": 26
     },
     {
       "name": "watchfiles",
@@ -495,7 +535,7 @@
       "forks": 110,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 82.9,
         "complexity": 68.3,
@@ -503,7 +543,7 @@
         "dead_code": 91.9,
         "coverage": 74.9
       },
-      "rank": 25
+      "rank": 27
     },
     {
       "name": "black",
@@ -515,7 +555,7 @@
       "forks": 2500,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 63.3,
         "complexity": 86.9,
@@ -523,7 +563,67 @@
         "dead_code": 68.4,
         "coverage": 96.8
       },
-      "rank": 26
+      "rank": 28
+    },
+    {
+      "name": "pre-commit",
+      "owner": "pre-commit",
+      "description": "",
+      "score": 80.0,
+      "grade": "A-",
+      "stars": 1000,
+      "forks": 100,
+      "language": "Python",
+      "category": "DevOps",
+      "last_analyzed": "2026-03-04T12:11:41Z",
+      "dimensions": {
+        "health": 96.5,
+        "complexity": 54.4,
+        "security": 72.5,
+        "dead_code": 84.0,
+        "coverage": 91.0
+      },
+      "rank": 29
+    },
+    {
+      "name": "airflow",
+      "owner": "apache",
+      "description": "",
+      "score": 79.8,
+      "grade": "B+",
+      "stars": 1000,
+      "forks": 100,
+      "language": "Python",
+      "category": "workflow-orchestration",
+      "last_analyzed": "2026-03-04T12:11:41Z",
+      "dimensions": {
+        "health": 85.8,
+        "complexity": 84.0,
+        "security": 67.3,
+        "dead_code": 85.2,
+        "coverage": 79.3
+      },
+      "rank": 30
+    },
+    {
+      "name": "datasets",
+      "owner": "huggingface",
+      "description": "",
+      "score": 79.5,
+      "grade": "B+",
+      "stars": 1000,
+      "forks": 100,
+      "language": "Python",
+      "category": "ML/AI",
+      "last_analyzed": "2026-03-04T12:11:41Z",
+      "dimensions": {
+        "health": 81.0,
+        "complexity": 54.2,
+        "security": 87.7,
+        "dead_code": 90.2,
+        "coverage": 89.4
+      },
+      "rank": 31
     },
     {
       "name": "transformers",
@@ -535,7 +635,7 @@
       "forks": 27500,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 85.3,
         "complexity": 72.5,
@@ -543,7 +643,7 @@
         "dead_code": 75.9,
         "coverage": 93.1
       },
-      "rank": 27
+      "rank": 32
     },
     {
       "name": "requests",
@@ -555,7 +655,7 @@
       "forks": 9500,
       "language": "Python",
       "category": "HTTP",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 71.7,
         "complexity": 94.8,
@@ -563,7 +663,7 @@
         "dead_code": 73.0,
         "coverage": 77.2
       },
-      "rank": 28
+      "rank": 33
     },
     {
       "name": "tqdm",
@@ -575,7 +675,7 @@
       "forks": 1400,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 60.3,
         "complexity": 91.5,
@@ -583,7 +683,7 @@
         "dead_code": 79.3,
         "coverage": 95.7
       },
-      "rank": 29
+      "rank": 34
     },
     {
       "name": "vllm",
@@ -595,7 +695,7 @@
       "forks": 6500,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 80.7,
         "complexity": 70.0,
@@ -603,7 +703,7 @@
         "dead_code": 66.5,
         "coverage": 68.6
       },
-      "rank": 30
+      "rank": 35
     },
     {
       "name": "werkzeug",
@@ -615,7 +715,7 @@
       "forks": 1800,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 86.3,
         "complexity": 56.9,
@@ -623,7 +723,7 @@
         "dead_code": 65.9,
         "coverage": 92.6
       },
-      "rank": 31
+      "rank": 36
     },
     {
       "name": "faker",
@@ -635,7 +735,7 @@
       "forks": 2000,
       "language": "Python",
       "category": "Testing",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 61.5,
         "complexity": 95.0,
@@ -643,7 +743,7 @@
         "dead_code": 68.3,
         "coverage": 74.0
       },
-      "rank": 32
+      "rank": 37
     },
     {
       "name": "duckdb",
@@ -655,7 +755,7 @@
       "forks": 2200,
       "language": "Python",
       "category": "Databases",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 72.6,
         "complexity": 91.2,
@@ -663,7 +763,7 @@
         "dead_code": 65.5,
         "coverage": 56.5
       },
-      "rank": 33
+      "rank": 38
     },
     {
       "name": "docker-py",
@@ -675,7 +775,7 @@
       "forks": 1750,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 90.7,
         "complexity": 62.7,
@@ -683,7 +783,7 @@
         "dead_code": 88.3,
         "coverage": 79.6
       },
-      "rank": 34
+      "rank": 39
     },
     {
       "name": "starlette",
@@ -695,7 +795,7 @@
       "forks": 940,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 59.7,
         "complexity": 82.4,
@@ -703,7 +803,27 @@
         "dead_code": 68.1,
         "coverage": 83.1
       },
-      "rank": 35
+      "rank": 40
+    },
+    {
+      "name": "uv",
+      "owner": "astral-sh",
+      "description": "",
+      "score": 76.9,
+      "grade": "B+",
+      "stars": 1000,
+      "forks": 100,
+      "language": "Python",
+      "category": "DevOps",
+      "last_analyzed": "2026-03-04T12:11:41Z",
+      "dimensions": {
+        "health": 73.1,
+        "complexity": 82.4,
+        "security": 77.0,
+        "dead_code": 89.3,
+        "coverage": 68.6
+      },
+      "rank": 41
     },
     {
       "name": "pyyaml",
@@ -715,7 +835,7 @@
       "forks": 520,
       "language": "Python",
       "category": "Utilities",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 61.4,
         "complexity": 85.2,
@@ -723,7 +843,7 @@
         "dead_code": 83.3,
         "coverage": 89.3
       },
-      "rank": 36
+      "rank": 42
     },
     {
       "name": "pandas",
@@ -735,7 +855,7 @@
       "forks": 17900,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 80.8,
         "complexity": 64.3,
@@ -743,7 +863,7 @@
         "dead_code": 93.2,
         "coverage": 67.8
       },
-      "rank": 37
+      "rank": 43
     },
     {
       "name": "semgrep",
@@ -755,7 +875,7 @@
       "forks": 1200,
       "language": "Python",
       "category": "Security",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 71.2,
         "complexity": 82.6,
@@ -763,7 +883,7 @@
         "dead_code": 97.9,
         "coverage": 88.4
       },
-      "rank": 38
+      "rank": 44
     },
     {
       "name": "markitdown",
@@ -775,7 +895,7 @@
       "forks": 5200,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 68.9,
         "complexity": 70.1,
@@ -783,7 +903,7 @@
         "dead_code": 90.2,
         "coverage": 95.8
       },
-      "rank": 39
+      "rank": 45
     },
     {
       "name": "sqlalchemy",
@@ -795,7 +915,7 @@
       "forks": 1600,
       "language": "Python",
       "category": "Databases",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 69.5,
         "complexity": 68.4,
@@ -803,7 +923,47 @@
         "dead_code": 82.1,
         "coverage": 76.2
       },
-      "rank": 40
+      "rank": 46
+    },
+    {
+      "name": "seaborn",
+      "owner": "mwaskom",
+      "description": "",
+      "score": 75.5,
+      "grade": "B+",
+      "stars": 1000,
+      "forks": 100,
+      "language": "Python",
+      "category": "Data Science",
+      "last_analyzed": "2026-03-04T12:11:41Z",
+      "dimensions": {
+        "health": 62.5,
+        "complexity": 92.9,
+        "security": 60.5,
+        "dead_code": 85.0,
+        "coverage": 96.9
+      },
+      "rank": 47
+    },
+    {
+      "name": "pyright",
+      "owner": "microsoft",
+      "description": "",
+      "score": 74.7,
+      "grade": "B",
+      "stars": 1000,
+      "forks": 100,
+      "language": "Python",
+      "category": "DevOps",
+      "last_analyzed": "2026-03-04T12:11:41Z",
+      "dimensions": {
+        "health": 72.4,
+        "complexity": 81.9,
+        "security": 70.1,
+        "dead_code": 92.8,
+        "coverage": 65.1
+      },
+      "rank": 48
     },
     {
       "name": "aiohttp",
@@ -815,7 +975,7 @@
       "forks": 2050,
       "language": "Python",
       "category": "HTTP",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 85.8,
         "complexity": 52.8,
@@ -823,7 +983,7 @@
         "dead_code": 94.4,
         "coverage": 66.2
       },
-      "rank": 41
+      "rank": 49
     },
     {
       "name": "textual",
@@ -835,7 +995,7 @@
       "forks": 850,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 59.3,
         "complexity": 86.0,
@@ -843,7 +1003,7 @@
         "dead_code": 65.3,
         "coverage": 76.0
       },
-      "rank": 42
+      "rank": 50
     },
     {
       "name": "dateutil",
@@ -855,7 +1015,7 @@
       "forks": 520,
       "language": "Python",
       "category": "Utilities",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 67.5,
         "complexity": 90.6,
@@ -863,7 +1023,7 @@
         "dead_code": 90.8,
         "coverage": 74.5
       },
-      "rank": 43
+      "rank": 51
     },
     {
       "name": "bandit",
@@ -875,7 +1035,7 @@
       "forks": 1050,
       "language": "Python",
       "category": "Security",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 85.0,
         "complexity": 60.6,
@@ -883,7 +1043,7 @@
         "dead_code": 82.3,
         "coverage": 69.4
       },
-      "rank": 44
+      "rank": 52
     },
     {
       "name": "anthropic-sdk-python",
@@ -895,7 +1055,7 @@
       "forks": 480,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 82.3,
         "complexity": 67.6,
@@ -903,7 +1063,7 @@
         "dead_code": 83.5,
         "coverage": 84.6
       },
-      "rank": 45
+      "rank": 53
     },
     {
       "name": "locust",
@@ -915,7 +1075,7 @@
       "forks": 3000,
       "language": "Python",
       "category": "Testing",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 83.4,
         "complexity": 79.6,
@@ -923,7 +1083,7 @@
         "dead_code": 77.9,
         "coverage": 64.4
       },
-      "rank": 46
+      "rank": 54
     },
     {
       "name": "poetry",
@@ -935,7 +1095,7 @@
       "forks": 2400,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 90.4,
         "complexity": 61.4,
@@ -943,7 +1103,7 @@
         "dead_code": 89.2,
         "coverage": 65.6
       },
-      "rank": 47
+      "rank": 55
     },
     {
       "name": "rich",
@@ -955,7 +1115,7 @@
       "forks": 1750,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 63.4,
         "complexity": 52.1,
@@ -963,7 +1123,7 @@
         "dead_code": 99.1,
         "coverage": 63.6
       },
-      "rank": 48
+      "rank": 56
     },
     {
       "name": "paramiko",
@@ -975,7 +1135,7 @@
       "forks": 2000,
       "language": "Python",
       "category": "Networking",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 76.3,
         "complexity": 73.6,
@@ -983,7 +1143,7 @@
         "dead_code": 85.2,
         "coverage": 60.9
       },
-      "rank": 49
+      "rank": 57
     },
     {
       "name": "scrapy",
@@ -995,7 +1155,7 @@
       "forks": 10700,
       "language": "Python",
       "category": "HTTP",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 63.4,
         "complexity": 64.4,
@@ -1003,7 +1163,7 @@
         "dead_code": 98.1,
         "coverage": 58.3
       },
-      "rank": 50
+      "rank": 58
     },
     {
       "name": "langchain",
@@ -1015,7 +1175,7 @@
       "forks": 15800,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 83.7,
         "complexity": 55.5,
@@ -1023,7 +1183,7 @@
         "dead_code": 69.6,
         "coverage": 76.9
       },
-      "rank": 51
+      "rank": 59
     },
     {
       "name": "open-webui",
@@ -1035,7 +1195,7 @@
       "forks": 15000,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 72.3,
         "complexity": 64.1,
@@ -1043,7 +1203,7 @@
         "dead_code": 98.1,
         "coverage": 76.2
       },
-      "rank": 52
+      "rank": 60
     },
     {
       "name": "arrow",
@@ -1055,7 +1215,7 @@
       "forks": 680,
       "language": "Python",
       "category": "Utilities",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 58.4,
         "complexity": 73.0,
@@ -1063,7 +1223,7 @@
         "dead_code": 69.0,
         "coverage": 62.5
       },
-      "rank": 53
+      "rank": 61
     },
     {
       "name": "mitmproxy",
@@ -1075,7 +1235,7 @@
       "forks": 4000,
       "language": "Python",
       "category": "Networking",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 68.1,
         "complexity": 60.3,
@@ -1083,7 +1243,27 @@
         "dead_code": 68.3,
         "coverage": 95.7
       },
-      "rank": 54
+      "rank": 62
+    },
+    {
+      "name": "prefect",
+      "owner": "PrefectHQ",
+      "description": "",
+      "score": 69.8,
+      "grade": "B-",
+      "stars": 1000,
+      "forks": 100,
+      "language": "Python",
+      "category": "workflow-orchestration",
+      "last_analyzed": "2026-03-04T12:11:41Z",
+      "dimensions": {
+        "health": 78.3,
+        "complexity": 70.7,
+        "security": 60.9,
+        "dead_code": 77.4,
+        "coverage": 61.7
+      },
+      "rank": 63
     },
     {
       "name": "trogon",
@@ -1095,7 +1275,7 @@
       "forks": 100,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 55.0,
         "complexity": 80.9,
@@ -1103,7 +1283,7 @@
         "dead_code": 68.4,
         "coverage": 77.8
       },
-      "rank": 55
+      "rank": 64
     },
     {
       "name": "pip",
@@ -1115,7 +1295,7 @@
       "forks": 3200,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 60.1,
         "complexity": 72.3,
@@ -1123,7 +1303,7 @@
         "dead_code": 74.1,
         "coverage": 87.9
       },
-      "rank": 56
+      "rank": 65
     },
     {
       "name": "cli",
@@ -1135,7 +1315,7 @@
       "forks": 1550,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 67.5,
         "complexity": 58.1,
@@ -1143,7 +1323,7 @@
         "dead_code": 70.9,
         "coverage": 90.3
       },
-      "rank": 57
+      "rank": 66
     },
     {
       "name": "boto3",
@@ -1155,7 +1335,7 @@
       "forks": 1950,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 55.1,
         "complexity": 76.5,
@@ -1163,7 +1343,7 @@
         "dead_code": 90.5,
         "coverage": 55.6
       },
-      "rank": 58
+      "rank": 67
     },
     {
       "name": "ansible",
@@ -1175,7 +1355,7 @@
       "forks": 24000,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 61.2,
         "complexity": 89.5,
@@ -1183,7 +1363,7 @@
         "dead_code": 80.7,
         "coverage": 57.3
       },
-      "rank": 59
+      "rank": 68
     },
     {
       "name": "tornado",
@@ -1195,7 +1375,7 @@
       "forks": 5600,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 68.9,
         "complexity": 54.3,
@@ -1203,7 +1383,27 @@
         "dead_code": 88.3,
         "coverage": 57.1
       },
-      "rank": 60
+      "rank": 69
+    },
+    {
+      "name": "streamlit",
+      "owner": "streamlit",
+      "description": "",
+      "score": 66.9,
+      "grade": "B-",
+      "stars": 1000,
+      "forks": 100,
+      "language": "Python",
+      "category": "data-viz",
+      "last_analyzed": "2026-03-04T12:11:41Z",
+      "dimensions": {
+        "health": 57.9,
+        "complexity": 55.9,
+        "security": 86.8,
+        "dead_code": 83.4,
+        "coverage": 55.1
+      },
+      "rank": 70
     },
     {
       "name": "awesome-llm-apps",
@@ -1215,7 +1415,7 @@
       "forks": 11000,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 72.6,
         "complexity": 62.7,
@@ -1223,7 +1423,7 @@
         "dead_code": 68.4,
         "coverage": 60.1
       },
-      "rank": 61
+      "rank": 71
     },
     {
       "name": "Pillow",
@@ -1235,7 +1435,7 @@
       "forks": 2400,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 70.8,
         "complexity": 64.0,
@@ -1243,7 +1443,7 @@
         "dead_code": 78.2,
         "coverage": 63.9
       },
-      "rank": 62
+      "rank": 72
     },
     {
       "name": "pytorch",
@@ -1255,7 +1455,7 @@
       "forks": 23000,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 56.9,
         "complexity": 63.7,
@@ -1263,7 +1463,7 @@
         "dead_code": 74.7,
         "coverage": 63.9
       },
-      "rank": 63
+      "rank": 73
     },
     {
       "name": "litestar",
@@ -1275,7 +1475,7 @@
       "forks": 380,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 57.5,
         "complexity": 55.2,
@@ -1283,7 +1483,7 @@
         "dead_code": 75.0,
         "coverage": 76.4
       },
-      "rank": 64
+      "rank": 74
     },
     {
       "name": "pulumi",
@@ -1295,7 +1495,7 @@
       "forks": 1900,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T10:15:17Z",
+      "last_analyzed": "2026-03-04T12:11:41Z",
       "dimensions": {
         "health": 58.6,
         "complexity": 55.0,
@@ -1303,7 +1503,7 @@
         "dead_code": 81.6,
         "coverage": 76.8
       },
-      "rank": 65
+      "rank": 75
     }
   ]
 }
