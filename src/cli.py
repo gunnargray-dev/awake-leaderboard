@@ -11,6 +11,7 @@ Commands
     awake-lb refresh-scores [--session N] [--top N] [--data-dir PATH]
     awake-lb seed [--session N] [--db PATH]
     awake-lb trends [--limit N] [--sessions N]
+    awake-lb score-trends [--format FMT] [--top N] [--category CAT] [--write]
     awake-lb categories
     awake-lb stats
     awake-lb compare <owner1/repo1> <owner2/repo2>
@@ -441,6 +442,40 @@ def cmd_refresh_scores(args: argparse.Namespace) -> None:
     print(f"Snapshot recorded in {data_dir / 'score_history.json'}")
 
 
+def cmd_score_trends(args: argparse.Namespace) -> None:
+    """Analyze score trends from history snapshots."""
+    from src.trend_analyzer import (
+        generate_trend_report,
+        ensure_baseline_snapshots,
+    )
+
+    data_dir = Path(args.data_dir)
+
+    # Ensure we have baseline snapshots
+    created = ensure_baseline_snapshots(data_dir)
+    if created:
+        print(f"Created {created} baseline snapshot(s) in {data_dir}/")
+
+    report = generate_trend_report(
+        data_dir=data_dir,
+        top=args.top,
+        category=args.category or None,
+    )
+
+    fmt = args.format
+    if fmt == "json":
+        print(report.to_json())
+    else:
+        print(report.to_markdown())
+
+    if args.write:
+        out_path = data_dir / "trend_report.md"
+        out_path.write_text(report.to_markdown(), encoding="utf-8")
+        json_path = data_dir / "trend_report.json"
+        json_path.write_text(report.to_json() + "\n", encoding="utf-8")
+        print(f"\nReport written to {out_path} and {json_path}")
+
+
 def cmd_badge(args: argparse.Namespace) -> None:
     """Print badge URLs and Markdown for a project."""
     from src.models import init_db
@@ -572,6 +607,19 @@ def build_parser() -> argparse.ArgumentParser:
     p_gen.add_argument("-o", "--output", default="website/data/leaderboard.json",
                        help="Output path (default: website/data/leaderboard.json)")
 
+    # score-trends
+    p_st = sub.add_parser("score-trends", help="Analyze project score trends from history")
+    p_st.add_argument("--format", choices=["markdown", "json"], default="markdown",
+                      help="Output format (default: markdown)")
+    p_st.add_argument("--top", type=int, default=10,
+                      help="Number of projects per section (default: 10)")
+    p_st.add_argument("--category", default="",
+                      help="Filter by seed category")
+    p_st.add_argument("--data-dir", dest="data_dir", default="data",
+                      help="Data directory for score_history.json (default: data)")
+    p_st.add_argument("--write", action="store_true", default=False,
+                      help="Write report to data/trend_report.md and .json")
+
     return parser
 
 
@@ -598,6 +646,7 @@ def main(argv: Optional[list[str]] = None) -> None:
         "digest": cmd_digest,
         "badge": cmd_badge,
         "refresh-scores": cmd_refresh_scores,
+        "score-trends": cmd_score_trends,
         "generate-json": cmd_generate_json,
     }
 

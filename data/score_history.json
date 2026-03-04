@@ -1,0 +1,1822 @@
+[
+  {
+    "project_slug": "pallets/flask",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 80.0,
+      "complexity": 56.3,
+      "security": 85.9,
+      "dead_code": 98.3,
+      "coverage": 97.7,
+      "overall": 81.2,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "django/django",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 95.2,
+      "complexity": 73.7,
+      "security": 78.8,
+      "dead_code": 68.3,
+      "coverage": 97.7,
+      "overall": 84.5,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "fastapi/fastapi",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 84.5,
+      "complexity": 97.2,
+      "security": 93.3,
+      "dead_code": 79.7,
+      "coverage": 83.8,
+      "overall": 88.7,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "psf/requests",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 71.7,
+      "complexity": 94.8,
+      "security": 77.1,
+      "dead_code": 73.0,
+      "coverage": 77.2,
+      "overall": 78.6,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "encode/httpx",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 96.6,
+      "complexity": 65.2,
+      "security": 81.1,
+      "dead_code": 80.5,
+      "coverage": 67.0,
+      "overall": 80.4,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "pandas-dev/pandas",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 80.8,
+      "complexity": 64.3,
+      "security": 76.8,
+      "dead_code": 93.2,
+      "coverage": 67.8,
+      "overall": 75.8,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "numpy/numpy",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 91.2,
+      "complexity": 85.9,
+      "security": 88.4,
+      "dead_code": 91.6,
+      "coverage": 80.9,
+      "overall": 87.9,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "scikit-learn/scikit-learn",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 84.3,
+      "complexity": 71.8,
+      "security": 84.5,
+      "dead_code": 81.7,
+      "coverage": 77.0,
+      "overall": 80.5,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "matplotlib/matplotlib",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 95.6,
+      "complexity": 91.3,
+      "security": 77.4,
+      "dead_code": 73.2,
+      "coverage": 65.1,
+      "overall": 83.4,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "python-poetry/poetry",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 90.4,
+      "complexity": 61.4,
+      "security": 60.6,
+      "dead_code": 89.2,
+      "coverage": 65.6,
+      "overall": 73.3,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "pypa/pip",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 60.1,
+      "complexity": 72.3,
+      "security": 64.1,
+      "dead_code": 74.1,
+      "coverage": 87.9,
+      "overall": 69.1,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "pytest-dev/pytest",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 94.1,
+      "complexity": 75.4,
+      "security": 92.9,
+      "dead_code": 92.5,
+      "coverage": 59.5,
+      "overall": 84.7,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "pallets/click",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 66.1,
+      "complexity": 89.8,
+      "security": 81.7,
+      "dead_code": 83.6,
+      "coverage": 98.0,
+      "overall": 81.3,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "tiangolo/typer",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 86.4,
+      "complexity": 93.5,
+      "security": 72.6,
+      "dead_code": 79.2,
+      "coverage": 89.3,
+      "overall": 84.1,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "psf/black",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 63.3,
+      "complexity": 86.9,
+      "security": 89.1,
+      "dead_code": 68.4,
+      "coverage": 96.8,
+      "overall": 80.0,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "astral-sh/ruff",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 86.2,
+      "complexity": 92.8,
+      "security": 82.5,
+      "dead_code": 90.2,
+      "coverage": 88.7,
+      "overall": 87.4,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "PyCQA/pylint",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 91.7,
+      "complexity": 97.1,
+      "security": 97.2,
+      "dead_code": 90.2,
+      "coverage": 94.7,
+      "overall": 94.4,
+      "grade": "A+"
+    }
+  },
+  {
+    "project_slug": "python/mypy",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 64.0,
+      "complexity": 97.1,
+      "security": 86.4,
+      "dead_code": 89.4,
+      "coverage": 94.0,
+      "overall": 83.3,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "pydantic/pydantic",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 87.6,
+      "complexity": 96.6,
+      "security": 94.0,
+      "dead_code": 99.6,
+      "coverage": 86.8,
+      "overall": 92.1,
+      "grade": "A+"
+    }
+  },
+  {
+    "project_slug": "sqlalchemy/sqlalchemy",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 69.5,
+      "complexity": 68.4,
+      "security": 85.3,
+      "dead_code": 82.1,
+      "coverage": 76.2,
+      "overall": 75.5,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "encode/starlette",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 59.7,
+      "complexity": 82.4,
+      "security": 93.1,
+      "dead_code": 68.1,
+      "coverage": 83.1,
+      "overall": 77.0,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "aio-libs/aiohttp",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 85.8,
+      "complexity": 52.8,
+      "security": 75.3,
+      "dead_code": 94.4,
+      "coverage": 66.2,
+      "overall": 74.5,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "celery/celery",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 95.2,
+      "complexity": 83.0,
+      "security": 75.1,
+      "dead_code": 98.9,
+      "coverage": 79.9,
+      "overall": 85.8,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "huge-success/sanic",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 61.4,
+      "complexity": 93.5,
+      "security": 90.7,
+      "dead_code": 78.7,
+      "coverage": 88.0,
+      "overall": 80.9,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "tornadoweb/tornado",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 68.9,
+      "complexity": 54.3,
+      "security": 72.1,
+      "dead_code": 88.3,
+      "coverage": 57.1,
+      "overall": 67.0,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "scrapy/scrapy",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 63.4,
+      "complexity": 64.4,
+      "security": 86.6,
+      "dead_code": 98.1,
+      "coverage": 58.3,
+      "overall": 72.1,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "python-pillow/Pillow",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 70.8,
+      "complexity": 64.0,
+      "security": 58.4,
+      "dead_code": 78.2,
+      "coverage": 63.9,
+      "overall": 66.0,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "yaml/pyyaml",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 61.4,
+      "complexity": 85.2,
+      "security": 75.8,
+      "dead_code": 83.3,
+      "coverage": 89.3,
+      "overall": 76.2,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "boto/boto3",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 55.1,
+      "complexity": 76.5,
+      "security": 75.8,
+      "dead_code": 90.5,
+      "coverage": 55.6,
+      "overall": 68.2,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "docker/docker-py",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 90.7,
+      "complexity": 62.7,
+      "security": 67.0,
+      "dead_code": 88.3,
+      "coverage": 79.6,
+      "overall": 77.3,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "ansible/ansible",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 61.2,
+      "complexity": 89.5,
+      "security": 60.8,
+      "dead_code": 80.7,
+      "coverage": 57.3,
+      "overall": 68.1,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "saltstack/salt",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 89.7,
+      "complexity": 89.3,
+      "security": 67.4,
+      "dead_code": 96.8,
+      "coverage": 81.6,
+      "overall": 83.5,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "paramiko/paramiko",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 76.3,
+      "complexity": 73.6,
+      "security": 69.1,
+      "dead_code": 85.2,
+      "coverage": 60.9,
+      "overall": 72.5,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "Textualize/rich",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 63.4,
+      "complexity": 52.1,
+      "security": 97.5,
+      "dead_code": 99.1,
+      "coverage": 63.6,
+      "overall": 73.3,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "Textualize/textual",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 59.3,
+      "complexity": 86.0,
+      "security": 85.4,
+      "dead_code": 65.3,
+      "coverage": 76.0,
+      "overall": 74.3,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "huggingface/transformers",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 85.3,
+      "complexity": 72.5,
+      "security": 69.3,
+      "dead_code": 75.9,
+      "coverage": 93.1,
+      "overall": 79.0,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "pytorch/pytorch",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 56.9,
+      "complexity": 63.7,
+      "security": 68.3,
+      "dead_code": 74.7,
+      "coverage": 63.9,
+      "overall": 63.9,
+      "grade": "C+"
+    }
+  },
+  {
+    "project_slug": "keras-team/keras",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 91.0,
+      "complexity": 88.8,
+      "security": 91.7,
+      "dead_code": 86.6,
+      "coverage": 87.9,
+      "overall": 89.8,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "langchain-ai/langchain",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 83.7,
+      "complexity": 55.5,
+      "security": 68.9,
+      "dead_code": 69.6,
+      "coverage": 76.9,
+      "overall": 71.9,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "openai/openai-python",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 91.0,
+      "complexity": 83.9,
+      "security": 81.5,
+      "dead_code": 88.4,
+      "coverage": 74.2,
+      "overall": 84.4,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "httpie/cli",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 67.5,
+      "complexity": 58.1,
+      "security": 64.8,
+      "dead_code": 70.9,
+      "coverage": 90.3,
+      "overall": 68.7,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "tqdm/tqdm",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 60.3,
+      "complexity": 91.5,
+      "security": 79.3,
+      "dead_code": 79.3,
+      "coverage": 95.7,
+      "overall": 78.5,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "pallets/jinja",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 88.2,
+      "complexity": 79.4,
+      "security": 61.5,
+      "dead_code": 92.9,
+      "coverage": 94.3,
+      "overall": 81.1,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "pallets/werkzeug",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 86.3,
+      "complexity": 56.9,
+      "security": 80.6,
+      "dead_code": 65.9,
+      "coverage": 92.6,
+      "overall": 77.9,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "mitmproxy/mitmproxy",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 68.1,
+      "complexity": 60.3,
+      "security": 64.6,
+      "dead_code": 68.3,
+      "coverage": 95.7,
+      "overall": 69.8,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "locustio/locust",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 83.4,
+      "complexity": 79.6,
+      "security": 60.6,
+      "dead_code": 77.9,
+      "coverage": 64.4,
+      "overall": 73.5,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "joke2k/faker",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 61.5,
+      "complexity": 95.0,
+      "security": 89.5,
+      "dead_code": 68.3,
+      "coverage": 74.0,
+      "overall": 77.8,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "samuelcolvin/watchfiles",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 82.9,
+      "complexity": 68.3,
+      "security": 85.6,
+      "dead_code": 91.9,
+      "coverage": 74.9,
+      "overall": 80.4,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "arrow-py/arrow",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 58.4,
+      "complexity": 73.0,
+      "security": 88.2,
+      "dead_code": 69.0,
+      "coverage": 62.5,
+      "overall": 70.5,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "dateutil/dateutil",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 67.5,
+      "complexity": 90.6,
+      "security": 62.8,
+      "dead_code": 90.8,
+      "coverage": 74.5,
+      "overall": 74.3,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "open-webui/open-webui",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 72.3,
+      "complexity": 64.1,
+      "security": 59.8,
+      "dead_code": 98.1,
+      "coverage": 76.2,
+      "overall": 70.7,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "langflow-ai/langflow",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 88.1,
+      "complexity": 67.6,
+      "security": 95.7,
+      "dead_code": 76.1,
+      "coverage": 73.9,
+      "overall": 82.6,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "microsoft/markitdown",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 68.9,
+      "complexity": 70.1,
+      "security": 70.2,
+      "dead_code": 90.2,
+      "coverage": 95.8,
+      "overall": 75.6,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "Shubhamsaboo/awesome-llm-apps",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 72.6,
+      "complexity": 62.7,
+      "security": 66.2,
+      "dead_code": 68.4,
+      "coverage": 60.1,
+      "overall": 66.7,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "yt-dlp/yt-dlp",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 88.1,
+      "complexity": 78.6,
+      "security": 91.5,
+      "dead_code": 94.2,
+      "coverage": 56.4,
+      "overall": 82.9,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "anthropics/anthropic-sdk-python",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 82.3,
+      "complexity": 67.6,
+      "security": 59.1,
+      "dead_code": 83.5,
+      "coverage": 84.6,
+      "overall": 74.0,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "jxnl/instructor",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 77.1,
+      "complexity": 95.9,
+      "security": 95.2,
+      "dead_code": 77.8,
+      "coverage": 83.6,
+      "overall": 86.4,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "vllm-project/vllm",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 80.7,
+      "complexity": 70.0,
+      "security": 92.5,
+      "dead_code": 66.5,
+      "coverage": 68.6,
+      "overall": 78.3,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "pola-rs/polars",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 60.1,
+      "complexity": 96.6,
+      "security": 93.2,
+      "dead_code": 94.4,
+      "coverage": 92.1,
+      "overall": 83.9,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "duckdb/duckdb",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 72.6,
+      "complexity": 91.2,
+      "security": 89.8,
+      "dead_code": 65.5,
+      "coverage": 56.5,
+      "overall": 77.5,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "litestar-org/litestar",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 57.5,
+      "complexity": 55.2,
+      "security": 66.1,
+      "dead_code": 75.0,
+      "coverage": 76.4,
+      "overall": 63.8,
+      "grade": "C+"
+    }
+  },
+  {
+    "project_slug": "Textualize/trogon",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 55.0,
+      "complexity": 80.9,
+      "security": 73.8,
+      "dead_code": 68.4,
+      "coverage": 77.8,
+      "overall": 69.6,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "PyCQA/bandit",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 85.0,
+      "complexity": 60.6,
+      "security": 72.1,
+      "dead_code": 82.3,
+      "coverage": 69.4,
+      "overall": 74.3,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "semgrep/semgrep",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 71.2,
+      "complexity": 82.6,
+      "security": 59.1,
+      "dead_code": 97.9,
+      "coverage": 88.4,
+      "overall": 75.7,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "pulumi/pulumi",
+    "session": 1,
+    "timestamp": "2026-03-04T10:15:14.390938+00:00",
+    "scores": {
+      "health": 58.6,
+      "complexity": 55.0,
+      "security": 60.4,
+      "dead_code": 81.6,
+      "coverage": 76.8,
+      "overall": 63.4,
+      "grade": "C+"
+    }
+  },
+  {
+    "project_slug": "pallets/flask",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 80.0,
+      "complexity": 56.3,
+      "security": 85.9,
+      "dead_code": 98.3,
+      "coverage": 97.7,
+      "overall": 81.2,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "django/django",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 95.2,
+      "complexity": 73.7,
+      "security": 78.8,
+      "dead_code": 68.3,
+      "coverage": 97.7,
+      "overall": 84.5,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "fastapi/fastapi",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 84.5,
+      "complexity": 97.2,
+      "security": 93.3,
+      "dead_code": 79.7,
+      "coverage": 83.8,
+      "overall": 88.7,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "psf/requests",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 71.7,
+      "complexity": 94.8,
+      "security": 77.1,
+      "dead_code": 73.0,
+      "coverage": 77.2,
+      "overall": 78.6,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "encode/httpx",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 96.6,
+      "complexity": 65.2,
+      "security": 81.1,
+      "dead_code": 80.5,
+      "coverage": 67.0,
+      "overall": 80.4,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "pandas-dev/pandas",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 80.8,
+      "complexity": 64.3,
+      "security": 76.8,
+      "dead_code": 93.2,
+      "coverage": 67.8,
+      "overall": 75.8,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "numpy/numpy",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 91.2,
+      "complexity": 85.9,
+      "security": 88.4,
+      "dead_code": 91.6,
+      "coverage": 80.9,
+      "overall": 87.9,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "scikit-learn/scikit-learn",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 84.3,
+      "complexity": 71.8,
+      "security": 84.5,
+      "dead_code": 81.7,
+      "coverage": 77.0,
+      "overall": 80.5,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "matplotlib/matplotlib",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 95.6,
+      "complexity": 91.3,
+      "security": 77.4,
+      "dead_code": 73.2,
+      "coverage": 65.1,
+      "overall": 83.4,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "python-poetry/poetry",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 90.4,
+      "complexity": 61.4,
+      "security": 60.6,
+      "dead_code": 89.2,
+      "coverage": 65.6,
+      "overall": 73.3,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "pypa/pip",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 60.1,
+      "complexity": 72.3,
+      "security": 64.1,
+      "dead_code": 74.1,
+      "coverage": 87.9,
+      "overall": 69.1,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "pytest-dev/pytest",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 94.1,
+      "complexity": 75.4,
+      "security": 92.9,
+      "dead_code": 92.5,
+      "coverage": 59.5,
+      "overall": 84.7,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "pallets/click",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 66.1,
+      "complexity": 89.8,
+      "security": 81.7,
+      "dead_code": 83.6,
+      "coverage": 98.0,
+      "overall": 81.3,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "tiangolo/typer",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 86.4,
+      "complexity": 93.5,
+      "security": 72.6,
+      "dead_code": 79.2,
+      "coverage": 89.3,
+      "overall": 84.1,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "psf/black",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 63.3,
+      "complexity": 86.9,
+      "security": 89.1,
+      "dead_code": 68.4,
+      "coverage": 96.8,
+      "overall": 80.0,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "astral-sh/ruff",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 86.2,
+      "complexity": 92.8,
+      "security": 82.5,
+      "dead_code": 90.2,
+      "coverage": 88.7,
+      "overall": 87.4,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "PyCQA/pylint",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 91.7,
+      "complexity": 97.1,
+      "security": 97.2,
+      "dead_code": 90.2,
+      "coverage": 94.7,
+      "overall": 94.4,
+      "grade": "A+"
+    }
+  },
+  {
+    "project_slug": "python/mypy",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 64.0,
+      "complexity": 97.1,
+      "security": 86.4,
+      "dead_code": 89.4,
+      "coverage": 94.0,
+      "overall": 83.3,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "pydantic/pydantic",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 87.6,
+      "complexity": 96.6,
+      "security": 94.0,
+      "dead_code": 99.6,
+      "coverage": 86.8,
+      "overall": 92.1,
+      "grade": "A+"
+    }
+  },
+  {
+    "project_slug": "sqlalchemy/sqlalchemy",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 69.5,
+      "complexity": 68.4,
+      "security": 85.3,
+      "dead_code": 82.1,
+      "coverage": 76.2,
+      "overall": 75.5,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "encode/starlette",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 59.7,
+      "complexity": 82.4,
+      "security": 93.1,
+      "dead_code": 68.1,
+      "coverage": 83.1,
+      "overall": 77.0,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "aio-libs/aiohttp",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 85.8,
+      "complexity": 52.8,
+      "security": 75.3,
+      "dead_code": 94.4,
+      "coverage": 66.2,
+      "overall": 74.5,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "celery/celery",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 95.2,
+      "complexity": 83.0,
+      "security": 75.1,
+      "dead_code": 98.9,
+      "coverage": 79.9,
+      "overall": 85.8,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "huge-success/sanic",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 61.4,
+      "complexity": 93.5,
+      "security": 90.7,
+      "dead_code": 78.7,
+      "coverage": 88.0,
+      "overall": 80.9,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "tornadoweb/tornado",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 68.9,
+      "complexity": 54.3,
+      "security": 72.1,
+      "dead_code": 88.3,
+      "coverage": 57.1,
+      "overall": 67.0,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "scrapy/scrapy",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 63.4,
+      "complexity": 64.4,
+      "security": 86.6,
+      "dead_code": 98.1,
+      "coverage": 58.3,
+      "overall": 72.1,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "python-pillow/Pillow",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 70.8,
+      "complexity": 64.0,
+      "security": 58.4,
+      "dead_code": 78.2,
+      "coverage": 63.9,
+      "overall": 66.0,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "yaml/pyyaml",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 61.4,
+      "complexity": 85.2,
+      "security": 75.8,
+      "dead_code": 83.3,
+      "coverage": 89.3,
+      "overall": 76.2,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "boto/boto3",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 55.1,
+      "complexity": 76.5,
+      "security": 75.8,
+      "dead_code": 90.5,
+      "coverage": 55.6,
+      "overall": 68.2,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "docker/docker-py",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 90.7,
+      "complexity": 62.7,
+      "security": 67.0,
+      "dead_code": 88.3,
+      "coverage": 79.6,
+      "overall": 77.3,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "ansible/ansible",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 61.2,
+      "complexity": 89.5,
+      "security": 60.8,
+      "dead_code": 80.7,
+      "coverage": 57.3,
+      "overall": 68.1,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "saltstack/salt",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 89.7,
+      "complexity": 89.3,
+      "security": 67.4,
+      "dead_code": 96.8,
+      "coverage": 81.6,
+      "overall": 83.5,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "paramiko/paramiko",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 76.3,
+      "complexity": 73.6,
+      "security": 69.1,
+      "dead_code": 85.2,
+      "coverage": 60.9,
+      "overall": 72.5,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "Textualize/rich",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 63.4,
+      "complexity": 52.1,
+      "security": 97.5,
+      "dead_code": 99.1,
+      "coverage": 63.6,
+      "overall": 73.3,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "Textualize/textual",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 59.3,
+      "complexity": 86.0,
+      "security": 85.4,
+      "dead_code": 65.3,
+      "coverage": 76.0,
+      "overall": 74.3,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "huggingface/transformers",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 85.3,
+      "complexity": 72.5,
+      "security": 69.3,
+      "dead_code": 75.9,
+      "coverage": 93.1,
+      "overall": 79.0,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "pytorch/pytorch",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 56.9,
+      "complexity": 63.7,
+      "security": 68.3,
+      "dead_code": 74.7,
+      "coverage": 63.9,
+      "overall": 63.9,
+      "grade": "C+"
+    }
+  },
+  {
+    "project_slug": "keras-team/keras",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 91.0,
+      "complexity": 88.8,
+      "security": 91.7,
+      "dead_code": 86.6,
+      "coverage": 87.9,
+      "overall": 89.8,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "langchain-ai/langchain",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 83.7,
+      "complexity": 55.5,
+      "security": 68.9,
+      "dead_code": 69.6,
+      "coverage": 76.9,
+      "overall": 71.9,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "openai/openai-python",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 91.0,
+      "complexity": 83.9,
+      "security": 81.5,
+      "dead_code": 88.4,
+      "coverage": 74.2,
+      "overall": 84.4,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "httpie/cli",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 67.5,
+      "complexity": 58.1,
+      "security": 64.8,
+      "dead_code": 70.9,
+      "coverage": 90.3,
+      "overall": 68.7,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "tqdm/tqdm",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 60.3,
+      "complexity": 91.5,
+      "security": 79.3,
+      "dead_code": 79.3,
+      "coverage": 95.7,
+      "overall": 78.5,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "pallets/jinja",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 88.2,
+      "complexity": 79.4,
+      "security": 61.5,
+      "dead_code": 92.9,
+      "coverage": 94.3,
+      "overall": 81.1,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "pallets/werkzeug",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 86.3,
+      "complexity": 56.9,
+      "security": 80.6,
+      "dead_code": 65.9,
+      "coverage": 92.6,
+      "overall": 77.9,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "mitmproxy/mitmproxy",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 68.1,
+      "complexity": 60.3,
+      "security": 64.6,
+      "dead_code": 68.3,
+      "coverage": 95.7,
+      "overall": 69.8,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "locustio/locust",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 83.4,
+      "complexity": 79.6,
+      "security": 60.6,
+      "dead_code": 77.9,
+      "coverage": 64.4,
+      "overall": 73.5,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "joke2k/faker",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 61.5,
+      "complexity": 95.0,
+      "security": 89.5,
+      "dead_code": 68.3,
+      "coverage": 74.0,
+      "overall": 77.8,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "samuelcolvin/watchfiles",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 82.9,
+      "complexity": 68.3,
+      "security": 85.6,
+      "dead_code": 91.9,
+      "coverage": 74.9,
+      "overall": 80.4,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "arrow-py/arrow",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 58.4,
+      "complexity": 73.0,
+      "security": 88.2,
+      "dead_code": 69.0,
+      "coverage": 62.5,
+      "overall": 70.5,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "dateutil/dateutil",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 67.5,
+      "complexity": 90.6,
+      "security": 62.8,
+      "dead_code": 90.8,
+      "coverage": 74.5,
+      "overall": 74.3,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "open-webui/open-webui",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 72.3,
+      "complexity": 64.1,
+      "security": 59.8,
+      "dead_code": 98.1,
+      "coverage": 76.2,
+      "overall": 70.7,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "langflow-ai/langflow",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 88.1,
+      "complexity": 67.6,
+      "security": 95.7,
+      "dead_code": 76.1,
+      "coverage": 73.9,
+      "overall": 82.6,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "microsoft/markitdown",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 68.9,
+      "complexity": 70.1,
+      "security": 70.2,
+      "dead_code": 90.2,
+      "coverage": 95.8,
+      "overall": 75.6,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "Shubhamsaboo/awesome-llm-apps",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 72.6,
+      "complexity": 62.7,
+      "security": 66.2,
+      "dead_code": 68.4,
+      "coverage": 60.1,
+      "overall": 66.7,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "yt-dlp/yt-dlp",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 88.1,
+      "complexity": 78.6,
+      "security": 91.5,
+      "dead_code": 94.2,
+      "coverage": 56.4,
+      "overall": 82.9,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "anthropics/anthropic-sdk-python",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 82.3,
+      "complexity": 67.6,
+      "security": 59.1,
+      "dead_code": 83.5,
+      "coverage": 84.6,
+      "overall": 74.0,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "jxnl/instructor",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 77.1,
+      "complexity": 95.9,
+      "security": 95.2,
+      "dead_code": 77.8,
+      "coverage": 83.6,
+      "overall": 86.4,
+      "grade": "A"
+    }
+  },
+  {
+    "project_slug": "vllm-project/vllm",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 80.7,
+      "complexity": 70.0,
+      "security": 92.5,
+      "dead_code": 66.5,
+      "coverage": 68.6,
+      "overall": 78.3,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "pola-rs/polars",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 60.1,
+      "complexity": 96.6,
+      "security": 93.2,
+      "dead_code": 94.4,
+      "coverage": 92.1,
+      "overall": 83.9,
+      "grade": "A-"
+    }
+  },
+  {
+    "project_slug": "duckdb/duckdb",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 72.6,
+      "complexity": 91.2,
+      "security": 89.8,
+      "dead_code": 65.5,
+      "coverage": 56.5,
+      "overall": 77.5,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "litestar-org/litestar",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 57.5,
+      "complexity": 55.2,
+      "security": 66.1,
+      "dead_code": 75.0,
+      "coverage": 76.4,
+      "overall": 63.8,
+      "grade": "C+"
+    }
+  },
+  {
+    "project_slug": "Textualize/trogon",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 55.0,
+      "complexity": 80.9,
+      "security": 73.8,
+      "dead_code": 68.4,
+      "coverage": 77.8,
+      "overall": 69.6,
+      "grade": "B-"
+    }
+  },
+  {
+    "project_slug": "PyCQA/bandit",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 85.0,
+      "complexity": 60.6,
+      "security": 72.1,
+      "dead_code": 82.3,
+      "coverage": 69.4,
+      "overall": 74.3,
+      "grade": "B"
+    }
+  },
+  {
+    "project_slug": "semgrep/semgrep",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 71.2,
+      "complexity": 82.6,
+      "security": 59.1,
+      "dead_code": 97.9,
+      "coverage": 88.4,
+      "overall": 75.7,
+      "grade": "B+"
+    }
+  },
+  {
+    "project_slug": "pulumi/pulumi",
+    "session": 2,
+    "timestamp": "2026-03-04T10:15:14.393426+00:00",
+    "scores": {
+      "health": 58.6,
+      "complexity": 55.0,
+      "security": 60.4,
+      "dead_code": 81.6,
+      "coverage": 76.8,
+      "overall": 63.4,
+      "grade": "C+"
+    }
+  }
+]
