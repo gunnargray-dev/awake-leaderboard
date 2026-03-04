@@ -14,6 +14,7 @@ Commands
     awake-lb score-trends [--format FMT] [--top N] [--category CAT] [--write]
     awake-lb categories
     awake-lb stats
+    awake-lb stats-summary [--format FMT] [--write] [--data-dir PATH]
     awake-lb compare <owner1/repo1> <owner2/repo2>
     awake-lb digest [--session N]
     awake-lb badge <owner/repo>
@@ -476,6 +477,29 @@ def cmd_score_trends(args: argparse.Namespace) -> None:
         print(f"\nReport written to {out_path} and {json_path}")
 
 
+def cmd_stats_summary(args: argparse.Namespace) -> None:
+    """Generate aggregate stats summary from leaderboard data."""
+    from src.stats_summary import generate_stats_report
+
+    data_dir = Path(args.data_dir) if args.data_dir else None
+    report = generate_stats_report(data_dir=data_dir)
+
+    fmt = args.format
+    if fmt == "json":
+        print(report.to_json())
+    else:
+        print(report.to_markdown())
+
+    if args.write:
+        out_dir = Path(args.data_dir) if args.data_dir else Path("data")
+        out_dir.mkdir(parents=True, exist_ok=True)
+        md_path = out_dir / "stats_summary.md"
+        md_path.write_text(report.to_markdown(), encoding="utf-8")
+        json_path = out_dir / "stats_summary.json"
+        json_path.write_text(report.to_json() + "\n", encoding="utf-8")
+        print(f"\nReport written to {md_path} and {json_path}")
+
+
 def cmd_badge(args: argparse.Namespace) -> None:
     """Print badge URLs and Markdown for a project."""
     from src.models import init_db
@@ -580,6 +604,15 @@ def build_parser() -> argparse.ArgumentParser:
     # stats
     sub.add_parser("stats", help="Show aggregate stats")
 
+    # stats-summary
+    p_ss = sub.add_parser("stats-summary", help="Aggregate stats summary from leaderboard data")
+    p_ss.add_argument("--format", choices=["markdown", "json"], default="markdown",
+                      help="Output format (default: markdown)")
+    p_ss.add_argument("--write", action="store_true", default=False,
+                      help="Write report to data/stats_summary.md and .json")
+    p_ss.add_argument("--data-dir", dest="data_dir", default=None,
+                      help="Directory containing leaderboard.json (default: generate fresh)")
+
     # compare
     p_compare = sub.add_parser("compare", help="Compare two projects")
     p_compare.add_argument("project_a", help="First project: owner/repo")
@@ -642,6 +675,7 @@ def main(argv: Optional[list[str]] = None) -> None:
         "trends": cmd_trends,
         "categories": cmd_categories,
         "stats": cmd_stats,
+        "stats-summary": cmd_stats_summary,
         "compare": cmd_compare,
         "digest": cmd_digest,
         "badge": cmd_badge,

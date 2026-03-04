@@ -98,6 +98,16 @@ _DESCRIPTIONS: dict[str, str] = {
     "bandit": "A tool designed to find common security issues in Python code",
     "semgrep": "Lightweight static analysis for many languages",
     "pulumi": "Infrastructure as Code in any programming language",
+    "uv": "An extremely fast Python package and project manager",
+    "pyright": "Static type checker for Python, emphasizing speed",
+    "pre-commit": "A framework for managing multi-language git pre-commit hooks",
+    "streamlit": "The fastest way to build data apps in Python",
+    "gradio": "Build and share delightful machine learning apps",
+    "airflow": "A platform to programmatically author, schedule, and monitor workflows",
+    "prefect": "A workflow orchestration framework for building data pipelines",
+    "seaborn": "Statistical data visualization using matplotlib",
+    "datasets": "The largest hub of ready-to-use datasets for ML models",
+    "litellm": "Call 100+ LLM APIs in the OpenAI format",
 }
 
 # Approximate star counts for realistic rendering
@@ -124,6 +134,10 @@ _STARS: dict[str, int] = {
     "anthropic-sdk-python": 4200, "instructor": 9800, "vllm": 42000,
     "polars": 32500, "duckdb": 26800, "litestar": 5800,
     "trogon": 2500, "bandit": 6600, "semgrep": 11000, "pulumi": 22500,
+    "uv": 38500, "pyright": 14200, "pre-commit": 13200,
+    "streamlit": 37800, "gradio": 35500, "airflow": 38400,
+    "prefect": 18500, "seaborn": 12800, "datasets": 19800,
+    "litellm": 18000,
 }
 
 _FORKS: dict[str, int] = {
@@ -149,6 +163,10 @@ _FORKS: dict[str, int] = {
     "anthropic-sdk-python": 480, "instructor": 780, "vllm": 6500,
     "polars": 2100, "duckdb": 2200, "litestar": 380,
     "trogon": 100, "bandit": 1050, "semgrep": 1200, "pulumi": 1900,
+    "uv": 1500, "pyright": 1100, "pre-commit": 850,
+    "streamlit": 3200, "gradio": 2600, "airflow": 8800,
+    "prefect": 1400, "seaborn": 3600, "datasets": 2800,
+    "litellm": 2200,
 }
 
 # ---------------------------------------------------------------------------
@@ -180,6 +198,8 @@ _CATEGORY_DISPLAY: dict[str, str] = {
     "tui-framework": "CLI Tools",
     "utilities": "Utilities",
     "security": "Security",
+    "data-viz": "Data Visualization",
+    "workflow-orchestration": "Workflow Orchestration",
 }
 
 
