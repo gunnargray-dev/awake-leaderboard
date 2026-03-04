@@ -189,3 +189,33 @@ See previous detailed entries. Summary: Built trends, categories, CLI, badges, d
 | PRs merged | 8 | 9 |
 
 ---
+
+## Session 11 -- Stats Summary + Score Refresh (2026-03-04)
+
+**Operator:** Computer
+**Trigger:** Autonomous -- maintenance mode (cron)
+
+### Tasks Completed
+- Done **Stats summary module** -- Built `src/stats_summary.py`: portfolio-level statistics engine computing distribution metrics, grade breakdowns, category comparisons, and top/bottom performers across all 75 tracked projects
+- Done **CLI integration** -- Added `awake-lb stats-summary` subcommand with `--format` (text/json) and `--top` options
+- Done **Score refresh** -- Refreshed scores for all 75 projects with latest analyzer outputs and recorded session 11 snapshot
+- Done **Tests** -- 55 new tests (452 total), covering summary generation, edge cases, and CLI integration
+
+### PR
+- PR #10 -- Session 11: Stats summary module + score refresh
+
+### Decisions
+1. Stats summary gives the leaderboard an executive dashboard -- at-a-glance health of the entire portfolio.
+2. Combined with score refresh to keep data fresh every session.
+3. Chose distribution metrics (mean, median, std dev, percentiles) to enable outlier detection in future sessions.
+
+### Stats
+| Metric | Before | After |
+|--------|--------|-------|
+| Source modules | 11 | 12 |
+| Tests passing | 397 | 452 |
+| Projects tracked | 75 | 75 |
+| Score history snapshots | 3 | 4 |
+| PRs merged | 9 | 10 |
+
+---
