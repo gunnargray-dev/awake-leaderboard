@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-04T08:28:06Z",
+    "generated_at": "2026-03-04T10:15:17Z",
     "total_projects": 65,
     "version": "1.1.0"
   },
@@ -15,7 +15,7 @@
       "forks": 1200,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 91.7,
         "complexity": 97.1,
@@ -35,7 +35,7 @@
       "forks": 1950,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 87.6,
         "complexity": 96.6,
@@ -55,7 +55,7 @@
       "forks": 19700,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 91.0,
         "complexity": 88.8,
@@ -75,7 +75,7 @@
       "forks": 6800,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 84.5,
         "complexity": 97.2,
@@ -95,7 +95,7 @@
       "forks": 10300,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 91.2,
         "complexity": 85.9,
@@ -115,7 +115,7 @@
       "forks": 1300,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 86.2,
         "complexity": 92.8,
@@ -135,7 +135,7 @@
       "forks": 780,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 77.1,
         "complexity": 95.9,
@@ -155,7 +155,7 @@
       "forks": 4800,
       "language": "Python",
       "category": "Async",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 95.2,
         "complexity": 83.0,
@@ -175,7 +175,7 @@
       "forks": 2700,
       "language": "Python",
       "category": "Testing",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 94.1,
         "complexity": 75.4,
@@ -195,7 +195,7 @@
       "forks": 32500,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 95.2,
         "complexity": 73.7,
@@ -215,7 +215,7 @@
       "forks": 3500,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 91.0,
         "complexity": 83.9,
@@ -235,7 +235,7 @@
       "forks": 700,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 86.4,
         "complexity": 93.5,
@@ -255,7 +255,7 @@
       "forks": 2100,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 60.1,
         "complexity": 96.6,
@@ -275,7 +275,7 @@
       "forks": 5600,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 89.7,
         "complexity": 89.3,
@@ -295,7 +295,7 @@
       "forks": 7800,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 95.6,
         "complexity": 91.3,
@@ -315,7 +315,7 @@
       "forks": 2900,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 64.0,
         "complexity": 97.1,
@@ -335,7 +335,7 @@
       "forks": 11800,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 88.1,
         "complexity": 78.6,
@@ -355,7 +355,7 @@
       "forks": 21000,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 88.1,
         "complexity": 67.6,
@@ -375,7 +375,7 @@
       "forks": 2200,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 66.1,
         "complexity": 89.8,
@@ -395,7 +395,7 @@
       "forks": 16500,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 80.0,
         "complexity": 56.3,
@@ -415,7 +415,7 @@
       "forks": 1700,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 88.2,
         "complexity": 79.4,
@@ -435,7 +435,7 @@
       "forks": 1550,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 61.4,
         "complexity": 93.5,
@@ -455,7 +455,7 @@
       "forks": 25800,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 84.3,
         "complexity": 71.8,
@@ -475,7 +475,7 @@
       "forks": 890,
       "language": "Python",
       "category": "HTTP",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 96.6,
         "complexity": 65.2,
@@ -495,7 +495,7 @@
       "forks": 110,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 82.9,
         "complexity": 68.3,
@@ -515,7 +515,7 @@
       "forks": 2500,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 63.3,
         "complexity": 86.9,
@@ -535,7 +535,7 @@
       "forks": 27500,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 85.3,
         "complexity": 72.5,
@@ -555,7 +555,7 @@
       "forks": 9500,
       "language": "Python",
       "category": "HTTP",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 71.7,
         "complexity": 94.8,
@@ -575,7 +575,7 @@
       "forks": 1400,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 60.3,
         "complexity": 91.5,
@@ -595,7 +595,7 @@
       "forks": 6500,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 80.7,
         "complexity": 70.0,
@@ -615,7 +615,7 @@
       "forks": 1800,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 86.3,
         "complexity": 56.9,
@@ -635,7 +635,7 @@
       "forks": 2000,
       "language": "Python",
       "category": "Testing",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 61.5,
         "complexity": 95.0,
@@ -655,7 +655,7 @@
       "forks": 2200,
       "language": "Python",
       "category": "Databases",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 72.6,
         "complexity": 91.2,
@@ -675,7 +675,7 @@
       "forks": 1750,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 90.7,
         "complexity": 62.7,
@@ -695,7 +695,7 @@
       "forks": 940,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 59.7,
         "complexity": 82.4,
@@ -715,7 +715,7 @@
       "forks": 520,
       "language": "Python",
       "category": "Utilities",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 61.4,
         "complexity": 85.2,
@@ -735,7 +735,7 @@
       "forks": 17900,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 80.8,
         "complexity": 64.3,
@@ -755,7 +755,7 @@
       "forks": 1200,
       "language": "Python",
       "category": "Security",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 71.2,
         "complexity": 82.6,
@@ -775,7 +775,7 @@
       "forks": 5200,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 68.9,
         "complexity": 70.1,
@@ -795,7 +795,7 @@
       "forks": 1600,
       "language": "Python",
       "category": "Databases",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 69.5,
         "complexity": 68.4,
@@ -815,7 +815,7 @@
       "forks": 2050,
       "language": "Python",
       "category": "HTTP",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 85.8,
         "complexity": 52.8,
@@ -835,7 +835,7 @@
       "forks": 850,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 59.3,
         "complexity": 86.0,
@@ -855,7 +855,7 @@
       "forks": 520,
       "language": "Python",
       "category": "Utilities",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 67.5,
         "complexity": 90.6,
@@ -875,7 +875,7 @@
       "forks": 1050,
       "language": "Python",
       "category": "Security",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 85.0,
         "complexity": 60.6,
@@ -895,7 +895,7 @@
       "forks": 480,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 82.3,
         "complexity": 67.6,
@@ -915,7 +915,7 @@
       "forks": 3000,
       "language": "Python",
       "category": "Testing",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 83.4,
         "complexity": 79.6,
@@ -935,7 +935,7 @@
       "forks": 2400,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 90.4,
         "complexity": 61.4,
@@ -955,7 +955,7 @@
       "forks": 1750,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 63.4,
         "complexity": 52.1,
@@ -975,7 +975,7 @@
       "forks": 2000,
       "language": "Python",
       "category": "Networking",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 76.3,
         "complexity": 73.6,
@@ -995,7 +995,7 @@
       "forks": 10700,
       "language": "Python",
       "category": "HTTP",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 63.4,
         "complexity": 64.4,
@@ -1015,7 +1015,7 @@
       "forks": 15800,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 83.7,
         "complexity": 55.5,
@@ -1035,7 +1035,7 @@
       "forks": 15000,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 72.3,
         "complexity": 64.1,
@@ -1055,7 +1055,7 @@
       "forks": 680,
       "language": "Python",
       "category": "Utilities",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 58.4,
         "complexity": 73.0,
@@ -1075,7 +1075,7 @@
       "forks": 4000,
       "language": "Python",
       "category": "Networking",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 68.1,
         "complexity": 60.3,
@@ -1095,7 +1095,7 @@
       "forks": 100,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 55.0,
         "complexity": 80.9,
@@ -1115,7 +1115,7 @@
       "forks": 3200,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 60.1,
         "complexity": 72.3,
@@ -1135,7 +1135,7 @@
       "forks": 1550,
       "language": "Python",
       "category": "CLI Tools",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 67.5,
         "complexity": 58.1,
@@ -1155,7 +1155,7 @@
       "forks": 1950,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 55.1,
         "complexity": 76.5,
@@ -1175,7 +1175,7 @@
       "forks": 24000,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 61.2,
         "complexity": 89.5,
@@ -1195,7 +1195,7 @@
       "forks": 5600,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 68.9,
         "complexity": 54.3,
@@ -1215,7 +1215,7 @@
       "forks": 11000,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 72.6,
         "complexity": 62.7,
@@ -1235,7 +1235,7 @@
       "forks": 2400,
       "language": "Python",
       "category": "Data Science",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 70.8,
         "complexity": 64.0,
@@ -1255,7 +1255,7 @@
       "forks": 23000,
       "language": "Python",
       "category": "ML/AI",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 56.9,
         "complexity": 63.7,
@@ -1275,7 +1275,7 @@
       "forks": 380,
       "language": "Python",
       "category": "Web Frameworks",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 57.5,
         "complexity": 55.2,
@@ -1295,7 +1295,7 @@
       "forks": 1900,
       "language": "Python",
       "category": "DevOps",
-      "last_analyzed": "2026-03-04T08:28:06Z",
+      "last_analyzed": "2026-03-04T10:15:17Z",
       "dimensions": {
         "health": 58.6,
         "complexity": 55.0,
