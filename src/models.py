@@ -305,7 +305,9 @@ def get_leaderboard(
         params.append(language)
 
     if sort_by == "repo":
-        query += f" ORDER BY p.repo ASC"
+        query += " ORDER BY p.repo ASC"
+    elif sort_by == "stars":
+        query += " ORDER BY p.stars DESC NULLS LAST"
     else:
         query += f" ORDER BY r.{sort_by} DESC NULLS LAST"
 
