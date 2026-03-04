@@ -8,6 +8,7 @@ Commands
     awake-lb detail <owner/repo>
     awake-lb refresh <owner/repo> [--session N] [--db PATH]
     awake-lb refresh-all [--session N] [--db PATH]
+    awake-lb refresh-scores [--session N] [--top N] [--data-dir PATH]
     awake-lb seed [--session N] [--db PATH]
     awake-lb trends [--limit N] [--sessions N]
     awake-lb categories
@@ -421,6 +422,25 @@ def cmd_generate_json(args: argparse.Namespace) -> None:
     print(f"Generated {output} with {total} projects (avg score: {avg:.1f})")
 
 
+def cmd_refresh_scores(args: argparse.Namespace) -> None:
+    """Refresh all project scores and show movers."""
+    from src.score_history import refresh_scores
+
+    data_dir = Path(args.data_dir)
+    session = args.session
+    top = args.top
+
+    print(f"Refreshing scores for session {session}...")
+    report = refresh_scores(data_dir=data_dir, session=session, top=top)
+
+    if args.json:
+        print(report.to_json())
+        return
+
+    print(report.to_text())
+    print(f"Snapshot recorded in {data_dir / 'score_history.json'}")
+
+
 def cmd_badge(args: argparse.Namespace) -> None:
     """Print badge URLs and Markdown for a project."""
     from src.models import init_db
@@ -538,6 +558,15 @@ def build_parser() -> argparse.ArgumentParser:
     p_badge = sub.add_parser("badge", help="Print badge URLs for a project")
     p_badge.add_argument("project", help="owner/repo")
 
+    # refresh-scores
+    p_rscore = sub.add_parser("refresh-scores", help="Refresh scores and show movers")
+    p_rscore.add_argument("--session", type=int, default=1, help="Session number (default: 1)")
+    p_rscore.add_argument("--top", type=int, default=5, help="Number of top movers (default: 5)")
+    p_rscore.add_argument("--data-dir", dest="data_dir", default="data",
+                          help="Data directory for score_history.json (default: data)")
+    p_rscore.add_argument("--json", action="store_true", default=False,
+                          help="Output as JSON")
+
     # generate-json
     p_gen = sub.add_parser("generate-json", help="Generate website leaderboard.json")
     p_gen.add_argument("-o", "--output", default="website/data/leaderboard.json",
@@ -568,6 +597,7 @@ def main(argv: Optional[list[str]] = None) -> None:
         "compare": cmd_compare,
         "digest": cmd_digest,
         "badge": cmd_badge,
+        "refresh-scores": cmd_refresh_scores,
         "generate-json": cmd_generate_json,
     }
 
