@@ -205,6 +205,83 @@ def analyze_project(
     )
 
 
+def run_batch_analysis(
+    db_path: str | Path,
+    session: int,
+    token: Optional[str] = None,
+    clone_base: Optional[str | Path] = None,
+) -> dict:
+    """Re-analyze ALL projects currently in the database.
+
+    Iterates over every project in the ``projects`` table, clones it,
+    runs the full analysis pipeline, and stores a new ``analysis_runs``
+    row for the given session number.
+
+    Args:
+        db_path:    Path to the SQLite database.
+        session:    Session number to tag all runs with.
+        token:      Optional GitHub API token for metadata fetches.
+        clone_base: Base directory for clones. Defaults to a temp dir.
+
+    Returns:
+        Dict with keys: session, total, success, failed, results (list of
+        dicts with owner/repo/status/score/error).
+    """
+    conn = init_db(db_path)
+    projects = conn.execute(
+        "SELECT owner, repo, url, category FROM projects"
+    ).fetchall()
+    conn.close()
+
+    if clone_base is None:
+        clone_base = tempfile.mkdtemp(prefix="awake_batch_")
+
+    results = []
+    success = 0
+    failed = 0
+
+    for row in projects:
+        owner, repo, url, category = row["owner"], row["repo"], row["url"], row["category"]
+        try:
+            run = run_pipeline(
+                db_path=db_path,
+                owner=owner,
+                repo=repo,
+                url=url,
+                session=session,
+                clone_dir=Path(clone_base) / f"{owner}_{repo}",
+                category=category or "",
+                token=token,
+            )
+            results.append({
+                "owner": owner,
+                "repo": repo,
+                "status": "ok",
+                "score": run.overall_score if run else None,
+                "grade": run.grade if run else None,
+                "error": None,
+            })
+            success += 1
+        except Exception as exc:
+            results.append({
+                "owner": owner,
+                "repo": repo,
+                "status": "error",
+                "score": None,
+                "grade": None,
+                "error": str(exc),
+            })
+            failed += 1
+
+    return {
+        "session": session,
+        "total": len(projects),
+        "success": success,
+        "failed": failed,
+        "results": results,
+    }
+
+
 def run_pipeline(
     db_path: str | Path,
     owner: str,
