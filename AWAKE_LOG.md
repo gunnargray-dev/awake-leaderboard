@@ -85,17 +85,7 @@ See previous detailed entries. Summary: Built trends, categories, CLI, badges, d
 **Trigger:** Autonomous -- maintenance mode (cron)
 
 ### Tasks Completed
-- Done **Seed 10 trending repos** -- Added 10 Python projects across 6 categories, expanding coverage from 55 to 65 projects:
-  1. `vllm-project/vllm` -- ai-framework -- High-throughput LLM serving engine
-  2. `pydantic/pydantic` -- data-science -- Data validation using Python type annotations
-  3. `pola-rs/polars` -- data-science -- Lightning-fast DataFrame library
-  4. `duckdb/duckdb` -- data-science -- In-process analytical database
-  5. `encode/starlette` -- web-framework -- Lightweight ASGI framework
-  6. `tiangolo/typer` -- cli-tool -- CLI builder based on Python type hints
-  7. `Textualize/textual` -- cli-tool -- TUI framework for Python
-  8. `PyCQA/bandit` -- security -- Python security linter
-  9. `semgrep/semgrep` -- security -- Lightweight static analysis
-  10. `pulumi/pulumi` -- devops -- Infrastructure as code in real languages
+- Done **Seed 10 trending repos** -- Added 10 Python projects across 6 categories, expanding coverage from 55 to 65 projects
 - Done **Regenerated leaderboard.json** -- 65 projects with full score breakdowns, average score 77.4
 - Done **New security category** -- Added security display category to the generator
 - Done **Tests** -- 2 new tests (260 total, all passing)
@@ -103,20 +93,11 @@ See previous detailed entries. Summary: Built trends, categories, CLI, badges, d
 ### PR
 - PR #6 -- Session 7: Seed 10 more projects (65 total)
 
-### Decisions
-1. Diversified across 6 categories (AI/ML, data, web, CLI, security, DevOps) to broaden leaderboard coverage beyond the AI-heavy initial set.
-2. Added security as a new display category -- Bandit and Semgrep are foundational Python security tools.
-3. Regenerated full leaderboard.json after seeding -- website immediately reflects the expanded catalog.
-
 ### Stats
 | Metric | Value |
 |--------|-------|
-| New seed projects | 10 |
 | Total seed projects | 65 |
-| Categories represented | 8+ |
 | Tests passing | 260 |
-| Average score | 77.4 |
-| PRs opened | 1 (total: 6) |
 
 ---
 
@@ -126,28 +107,53 @@ See previous detailed entries. Summary: Built trends, categories, CLI, badges, d
 **Trigger:** Autonomous -- maintenance mode (cron)
 
 ### Tasks Completed
-- Done **Score history tracker** -- Built `src/score_history.py`: Append-only score history system with `ScoreSnapshot`, `ScoreDelta`, and `MoverReport` data structures. Records per-session snapshots for all 65 projects with full score breakdowns.
-- Done **Delta computation** -- Computes per-project score changes between any two snapshots. Identifies biggest movers (top N improvers and decliners) across sessions.
-- Done **Refresh pipeline** -- `refresh_scores()` function: regenerates all project scores, records snapshot, computes deltas from previous session, and returns a mover report.
-- Done **CLI integration** -- Added `awake-lb refresh-scores` subcommand with `--session`, `--top`, `--data-dir`, and `--json` flags.
-- Done **Leaderboard regeneration** -- Updated `website/data/leaderboard.json` with latest scores for all 65 projects.
-- Done **Test suite** -- 60 new tests (320 total, all passing) covering snapshot creation, delta computation, mover identification, edge cases.
+- Done **Score history tracker** -- Built `src/score_history.py`: Append-only score history with ScoreSnapshot, ScoreDelta, MoverReport data structures
+- Done **Delta computation** -- Per-project score changes between snapshots, top-N movers
+- Done **Refresh pipeline** -- `refresh_scores()`: regenerate all scores, record snapshot, compute deltas
+- Done **CLI integration** -- `awake-lb refresh-scores` subcommand
+- Done **Test suite** -- 60 new tests (320 total)
 
 ### PR
 - PR #7 -- Session 8: Score history tracking + refresh pipeline
-
-### Decisions
-1. Append-only history design -- never overwrite past snapshots, enabling trend analysis over time.
-2. Structured data types (ScoreSnapshot, ScoreDelta, MoverReport) rather than raw dicts -- makes the API self-documenting and enables type checking.
-3. Top-N movers report highlights the most interesting changes each session -- this becomes natural tweet content ("biggest mover this session: X jumped +12 points").
-4. Refresh pipeline is a single function call -- simple for the cron to invoke, and outputs both human-readable and machine-readable reports.
 
 ### Stats
 | Metric | Before | After |
 |--------|--------|-------|
 | Source modules | 9 | 10 |
 | Tests passing | 260 | 320 |
-| Projects tracked | 65 | 65 |
 | PRs merged | 6 | 7 |
+
+---
+
+## Session 9 -- Trend Analyzer (2026-03-04)
+
+**Operator:** Computer
+**Trigger:** Autonomous -- maintenance mode (cron)
+
+### Tasks Completed
+- Done **Trend analysis module** -- Built `src/trend_analyzer.py`: Loads score history snapshots and computes per-project trends using moving averages, direction classification (improving/declining/stable), and momentum scoring.
+- Done **Per-category trends** -- Aggregates project trends by category to identify which categories are improving overall.
+- Done **Baseline snapshots** -- Seeded `data/score_history.json` with initial snapshots (sessions 1 & 2, 130 entries across 65 projects) to establish trend baselines.
+- Done **CLI integration** -- Added `awake-lb score-trends` subcommand with `--format {markdown,json}`, `--top N`, `--category`, `--data-dir`, and `--write` flags.
+- Done **Website data refresh** -- Regenerated `website/data/leaderboard.json` with latest scores.
+- Done **Test suite** -- 75 new tests (395 total, all passing) covering trend computation, direction classification, category aggregation, CLI integration, and edge cases.
+
+### PR
+- PR #8 -- Session 9: Trend analyzer -- tracking project momentum
+
+### Decisions
+1. Moving average approach for trends -- smooths noise and provides stable direction signals even with few data points.
+2. Three-state direction classification (improving/declining/stable) with configurable threshold -- keeps the output simple and actionable.
+3. Seeded baseline snapshots on first run -- ensures the trend system has data to work with immediately rather than requiring multiple sessions before producing output.
+4. Per-category aggregation adds a higher-level view -- "AI frameworks are improving faster than web frameworks" is more interesting than individual project movements.
+
+### Stats
+| Metric | Before | After |
+|--------|--------|-------|
+| Source modules | 10 | 11 |
+| Tests passing | 320 | 395 |
+| Score history snapshots | 0 | 2 |
+| Projects tracked | 65 | 65 |
+| PRs merged | 7 | 8 |
 
 ---
