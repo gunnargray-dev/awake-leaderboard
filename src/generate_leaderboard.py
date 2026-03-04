@@ -88,6 +88,16 @@ _DESCRIPTIONS: dict[str, str] = {
     "markitdown": "Python tool for converting various document formats to Markdown",
     "awesome-llm-apps": "A curated collection of awesome LLM apps built with RAG and AI agents",
     "yt-dlp": "A feature-rich command-line audio/video downloader",
+    "anthropic-sdk-python": "The official Python SDK for the Anthropic API",
+    "instructor": "Structured outputs for LLMs using Pydantic validation",
+    "vllm": "A high-throughput and memory-efficient inference engine for LLMs",
+    "polars": "Dataframes powered by a multithreaded, vectorized query engine",
+    "duckdb": "An in-process SQL OLAP database management system",
+    "litestar": "Production-ready, light, flexible and extensible ASGI API framework",
+    "trogon": "Easily turn your Click CLI into a textual TUI",
+    "bandit": "A tool designed to find common security issues in Python code",
+    "semgrep": "Lightweight static analysis for many languages",
+    "pulumi": "Infrastructure as Code in any programming language",
 }
 
 # Approximate star counts for realistic rendering
@@ -111,6 +121,9 @@ _STARS: dict[str, int] = {
     "arrow": 8800, "dateutil": 2300,
     "open-webui": 125600, "langflow": 145200,
     "markitdown": 90000, "awesome-llm-apps": 99400, "yt-dlp": 149500,
+    "anthropic-sdk-python": 4200, "instructor": 9800, "vllm": 42000,
+    "polars": 32500, "duckdb": 26800, "litestar": 5800,
+    "trogon": 2500, "bandit": 6600, "semgrep": 11000, "pulumi": 22500,
 }
 
 _FORKS: dict[str, int] = {
@@ -133,6 +146,9 @@ _FORKS: dict[str, int] = {
     "arrow": 680, "dateutil": 520,
     "open-webui": 15000, "langflow": 21000,
     "markitdown": 5200, "awesome-llm-apps": 11000, "yt-dlp": 11800,
+    "anthropic-sdk-python": 480, "instructor": 780, "vllm": 6500,
+    "polars": 2100, "duckdb": 2200, "litestar": 380,
+    "trogon": 100, "bandit": 1050, "semgrep": 1200, "pulumi": 1900,
 }
 
 # ---------------------------------------------------------------------------
@@ -163,6 +179,7 @@ _CATEGORY_DISPLAY: dict[str, str] = {
     "ai-framework": "ML/AI",
     "tui-framework": "CLI Tools",
     "utilities": "Utilities",
+    "security": "Security",
 }
 
 

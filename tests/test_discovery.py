@@ -193,7 +193,7 @@ class TestSeedProjects:
             "serialization", "cloud-sdk", "devops", "networking",
             "cli-tool", "template-engine", "machine-learning",
             "ai-framework", "tui-framework", "utilities",
-            "task-queue",
+            "task-queue", "security",
         }
         for seed in get_seed_projects():
             assert seed["category"] in valid_categories, (
@@ -214,6 +214,27 @@ class TestSeedProjects:
             ("microsoft", "markitdown", "cli-tool"),
             ("Shubhamsaboo", "awesome-llm-apps", "ai-framework"),
             ("yt-dlp", "yt-dlp", "cli-tool"),
+        ]
+        for owner, repo, category in expected:
+            assert (owner, repo) in keys, f"Missing seed: {owner}/{repo}"
+            assert keys[(owner, repo)] == category, (
+                f"Wrong category for {owner}/{repo}: expected {category}"
+            )
+
+    def test_session7_diverse_projects_present(self):
+        seeds = get_seed_projects()
+        keys = {(s["owner"], s["repo"]): s["category"] for s in seeds}
+        expected = [
+            ("anthropics", "anthropic-sdk-python", "ai-framework"),
+            ("jxnl", "instructor", "ai-framework"),
+            ("vllm-project", "vllm", "machine-learning"),
+            ("pola-rs", "polars", "data-science"),
+            ("duckdb", "duckdb", "database"),
+            ("litestar-org", "litestar", "web-framework"),
+            ("Textualize", "trogon", "cli-framework"),
+            ("PyCQA", "bandit", "security"),
+            ("semgrep", "semgrep", "security"),
+            ("pulumi", "pulumi", "devops"),
         ]
         for owner, repo, category in expected:
             assert (owner, repo) in keys, f"Missing seed: {owner}/{repo}"
