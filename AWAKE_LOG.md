@@ -39,3 +39,120 @@ This log is maintained autonomously by Computer. Every session appends a structu
 | PRs opened | 1 |
 
 ---
+
+## Session 1 -- Phase 1 Completion: Trends, Categories & CLI (2026-03-03)
+
+**Operator:** Computer
+**Trigger:** Manual -- run all 4 phases
+
+### Tasks Completed
+- Done **Trend tracking** -- `src/trends.py`: Score history, deltas, movers-and-shakers ranking. Re-analyze projects over time and track score movement.
+- Done **Category auto-detection** -- `src/categories.py`: Infers project category from GitHub topics, description, and repo name. Maps to canonical categories (web-framework, cli-tool, data-science, etc.).
+- Done **CLI entry point** -- `src/cli.py`: Full argparse CLI with commands: `top` (leaderboard), `detail` (project deep-dive), `refresh` (re-score), `seed` (populate), `trends` (movers), `categories` (list by category), `refresh-all` (bulk re-analyze).
+
+### PR
+- PR #2 -- Phase 1+3+4 backend: Trends, categories, CLI, badges, digest, comparison, API
+
+### Decisions
+1. Batched Phase 1/3/4 backend modules into a single PR to avoid churn -- all backend, all tested, clean separation.
+2. Category detection uses a keyword-to-category mapping rather than ML classification -- simple, deterministic, no dependencies.
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| New modules | 3 (trends, categories, cli) |
+| Phase 1 items completed | 3/3 remaining |
+
+---
+
+## Session 2 -- Phase 3: Growth Mechanics (2026-03-03)
+
+**Operator:** Computer
+**Trigger:** Manual -- run all 4 phases
+
+### Tasks Completed
+- Done **Embeddable badges** -- `src/badges.py`: Generates shields.io badge URLs with score + letter grade. Color-coded by tier (gold/green/yellow/red).
+- Done **Weekly digest** -- `src/digest.py`: Generates a Markdown digest with top projects, biggest movers, new entries, and category leaders.
+- Done **Historical tracking** -- Integrated into trends.py, re-analyze pipeline stores score snapshots over time.
+- Done **Shareable project cards** -- Badge system serves as the shareable card mechanism (embeddable in READMEs, social posts).
+
+### PR
+- PR #2 (same PR, batched with Session 1)
+
+### Decisions
+1. Used shields.io for badges rather than custom SVG generation -- battle-tested, zero hosting, CDN-cached.
+2. Digest is Markdown-native so it works in GitHub issues, email, and Slack.
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| New modules | 2 (badges, digest) |
+| Phase 3 items completed | 5/5 |
+
+---
+
+## Session 3 -- Phase 4: Scale Modules (2026-03-03)
+
+**Operator:** Computer
+**Trigger:** Manual -- run all 4 phases
+
+### Tasks Completed
+- Done **Comparison mode** -- `src/compare.py`: Head-to-head comparison of two projects across all dimensions (health, complexity, security, dead code, coverage). Returns winner per dimension and overall.
+- Done **API layer** -- `src/api.py`: JSON API functions for leaderboard, project detail, trends, comparison, categories, and aggregate stats. Ready for any web framework to wrap.
+- Done **Weekly movers-and-shakers** -- Built into trends.py, surfaces biggest score changes over configurable windows.
+- Done **Auto-discovery hooks** -- Discovery engine already supports finding new trending repos by stars; refresh-all CLI command re-analyzes everything.
+
+### PR
+- PR #2 (same PR, batched with Sessions 1-2)
+
+### Decisions
+1. API layer is framework-agnostic (pure functions returning dicts) -- can be wrapped in Flask, FastAPI, or served as static JSON.
+2. Comparison returns structured diffs per dimension, not just an overall winner -- more useful for content.
+3. JS/TS ecosystem expansion left as a future roadmap item -- the architecture supports it but analyzers need porting.
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| New modules | 2 (compare, api) |
+| Phase 4 items completed | 5/5 |
+| Total backend modules | 11 (7 new + 4 analyzers) |
+
+---
+
+## Session 4 -- Phase 2: Web Frontend (2026-03-03)
+
+**Operator:** Computer
+**Trigger:** Manual -- run all 4 phases
+
+### Tasks Completed
+- Done **Landing page** -- `website/index.html`: Global leaderboard with responsive card grid, header with animated gradient, search bar, category filters, sort controls.
+- Done **Design system** -- `website/base.css`: CSS custom properties for colors, typography (clamp-based fluid scale), spacing, radius, shadows. Light/dark theme via `prefers-color-scheme`.
+- Done **Layout** -- `website/style.css`: CSS Grid with `auto-fill` + `minmax()` for responsive cards. No media queries needed. Skeleton loading states.
+- Done **Components** -- `website/components.css`: Project cards with color-coded score badges (gold 90+, green 70-89, amber 50-69, red <50), stat grids, category pills, trend indicators.
+- Done **Client-side logic** -- `website/app.js`: Fetches leaderboard.json, renders cards, fuzzy search on name+description+category, category filtering, multi-field sorting, skeleton loading.
+- Done **Seed data** -- `website/data/leaderboard.json`: 10 curated Python projects with full score breakdowns.
+- Done **Search and filtering** -- Client-side fuzzy search + category filter chips.
+- Done **Mobile-responsive design** -- CSS Grid auto-fills, fluid typography, touch-friendly controls.
+
+### PR
+- PR #3 -- Phase 2: Interactive Web Frontend
+
+### Decisions
+1. Vanilla JS/CSS, no framework -- leaderboard is read-heavy with simple interactivity, framework would be overhead.
+2. CSS custom properties over Tailwind -- self-contained, readable, no build step.
+3. Static JSON data layer -- pipeline generates the file, frontend just reads it. No server needed.
+4. Dark mode by default -- developers live in dark mode.
+5. Score tiers give instant visual signal: Gold (90+), Green (70-89), Amber (50-69), Red (<50).
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Website files | 6 |
+| Framework dependencies | 0 |
+| Build step required | No |
+| Dark mode | Yes (default) |
+| Phase 2 items completed | 5/5 |
+| All phases completed | 4/4 |
+| Total PRs | 3 |
+
+---
