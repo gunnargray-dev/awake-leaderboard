@@ -213,6 +213,12 @@ _SEED_PROJECTS: list[tuple[str, str, str]] = [
     ("samuelcolvin", "watchfiles", "devops"),
     ("arrow-py", "arrow", "utilities"),
     ("dateutil", "dateutil", "utilities"),
+    # Session 5 -- trending 2025
+    ("open-webui", "open-webui", "ai-framework"),
+    ("langflow-ai", "langflow", "ai-framework"),
+    ("microsoft", "markitdown", "cli-tool"),
+    ("Shubhamsaboo", "awesome-llm-apps", "ai-framework"),
+    ("yt-dlp", "yt-dlp", "cli-tool"),
 ]
 
 

@@ -204,3 +204,19 @@ class TestSeedProjects:
         seeds = get_seed_projects()
         keys = [(s["owner"], s["repo"]) for s in seeds]
         assert len(keys) == len(set(keys)), "Duplicate seed projects found"
+
+    def test_session5_trending_projects_present(self):
+        seeds = get_seed_projects()
+        keys = {(s["owner"], s["repo"]): s["category"] for s in seeds}
+        expected = [
+            ("open-webui", "open-webui", "ai-framework"),
+            ("langflow-ai", "langflow", "ai-framework"),
+            ("microsoft", "markitdown", "cli-tool"),
+            ("Shubhamsaboo", "awesome-llm-apps", "ai-framework"),
+            ("yt-dlp", "yt-dlp", "cli-tool"),
+        ]
+        for owner, repo, category in expected:
+            assert (owner, repo) in keys, f"Missing seed: {owner}/{repo}"
+            assert keys[(owner, repo)] == category, (
+                f"Wrong category for {owner}/{repo}: expected {category}"
+            )
