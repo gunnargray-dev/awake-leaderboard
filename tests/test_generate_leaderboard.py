@@ -161,6 +161,24 @@ class TestGenerateLeaderboard:
         for owner, repo in expected:
             assert (owner, repo) in names, f"Missing: {owner}/{repo}"
 
+    def test_session7_projects_included(self):
+        data = generate_leaderboard()
+        names = {(p["owner"], p["name"]) for p in data["projects"]}
+        expected = [
+            ("anthropics", "anthropic-sdk-python"),
+            ("jxnl", "instructor"),
+            ("vllm-project", "vllm"),
+            ("pola-rs", "polars"),
+            ("duckdb", "duckdb"),
+            ("litestar-org", "litestar"),
+            ("Textualize", "trogon"),
+            ("PyCQA", "bandit"),
+            ("semgrep", "semgrep"),
+            ("pulumi", "pulumi"),
+        ]
+        for owner, repo in expected:
+            assert (owner, repo) in names, f"Missing: {owner}/{repo}"
+
 
 # ---------------------------------------------------------------------------
 # CLI main tests

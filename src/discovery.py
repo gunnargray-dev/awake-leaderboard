@@ -219,6 +219,17 @@ _SEED_PROJECTS: list[tuple[str, str, str]] = [
     ("microsoft", "markitdown", "cli-tool"),
     ("Shubhamsaboo", "awesome-llm-apps", "ai-framework"),
     ("yt-dlp", "yt-dlp", "cli-tool"),
+    # Session 7 -- diversify categories
+    ("anthropics", "anthropic-sdk-python", "ai-framework"),
+    ("jxnl", "instructor", "ai-framework"),
+    ("vllm-project", "vllm", "machine-learning"),
+    ("pola-rs", "polars", "data-science"),
+    ("duckdb", "duckdb", "database"),
+    ("litestar-org", "litestar", "web-framework"),
+    ("Textualize", "trogon", "cli-framework"),
+    ("PyCQA", "bandit", "security"),
+    ("semgrep", "semgrep", "security"),
+    ("pulumi", "pulumi", "devops"),
 ]
 
 
