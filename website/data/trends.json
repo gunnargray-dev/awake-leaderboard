@@ -1,0 +1,1973 @@
+{
+  "sessions": [
+    1,
+    2,
+    10,
+    11,
+    12
+  ],
+  "projects": {
+    "BerriAI/litellm": [
+      {
+        "session": 10,
+        "score": 83.8,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 83.8,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 83.8,
+        "grade": "A-"
+      }
+    ],
+    "PrefectHQ/prefect": [
+      {
+        "session": 10,
+        "score": 69.8,
+        "grade": "B-"
+      },
+      {
+        "session": 11,
+        "score": 69.8,
+        "grade": "B-"
+      },
+      {
+        "session": 12,
+        "score": 69.8,
+        "grade": "B-"
+      }
+    ],
+    "PyCQA/bandit": [
+      {
+        "session": 1,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 74.3,
+        "grade": "B"
+      }
+    ],
+    "PyCQA/pylint": [
+      {
+        "session": 1,
+        "score": 94.4,
+        "grade": "A+"
+      },
+      {
+        "session": 2,
+        "score": 94.4,
+        "grade": "A+"
+      },
+      {
+        "session": 10,
+        "score": 94.4,
+        "grade": "A+"
+      },
+      {
+        "session": 11,
+        "score": 94.4,
+        "grade": "A+"
+      },
+      {
+        "session": 12,
+        "score": 94.4,
+        "grade": "A+"
+      }
+    ],
+    "Shubhamsaboo/awesome-llm-apps": [
+      {
+        "session": 1,
+        "score": 66.7,
+        "grade": "B-"
+      },
+      {
+        "session": 2,
+        "score": 66.7,
+        "grade": "B-"
+      },
+      {
+        "session": 10,
+        "score": 66.7,
+        "grade": "B-"
+      },
+      {
+        "session": 11,
+        "score": 66.7,
+        "grade": "B-"
+      },
+      {
+        "session": 12,
+        "score": 66.7,
+        "grade": "B-"
+      }
+    ],
+    "Textualize/rich": [
+      {
+        "session": 1,
+        "score": 73.3,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 73.3,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 73.3,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 73.3,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 73.3,
+        "grade": "B"
+      }
+    ],
+    "Textualize/textual": [
+      {
+        "session": 1,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 74.3,
+        "grade": "B"
+      }
+    ],
+    "Textualize/trogon": [
+      {
+        "session": 1,
+        "score": 69.6,
+        "grade": "B-"
+      },
+      {
+        "session": 2,
+        "score": 69.6,
+        "grade": "B-"
+      },
+      {
+        "session": 10,
+        "score": 69.6,
+        "grade": "B-"
+      },
+      {
+        "session": 11,
+        "score": 69.6,
+        "grade": "B-"
+      },
+      {
+        "session": 12,
+        "score": 69.6,
+        "grade": "B-"
+      }
+    ],
+    "aio-libs/aiohttp": [
+      {
+        "session": 1,
+        "score": 74.5,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 74.5,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 74.5,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 74.5,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 74.5,
+        "grade": "B"
+      }
+    ],
+    "ansible/ansible": [
+      {
+        "session": 1,
+        "score": 68.1,
+        "grade": "B-"
+      },
+      {
+        "session": 2,
+        "score": 68.1,
+        "grade": "B-"
+      },
+      {
+        "session": 10,
+        "score": 68.1,
+        "grade": "B-"
+      },
+      {
+        "session": 11,
+        "score": 68.1,
+        "grade": "B-"
+      },
+      {
+        "session": 12,
+        "score": 68.1,
+        "grade": "B-"
+      }
+    ],
+    "anthropics/anthropic-sdk-python": [
+      {
+        "session": 1,
+        "score": 74.0,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 74.0,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 74.0,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 74.0,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 74.0,
+        "grade": "B"
+      }
+    ],
+    "apache/airflow": [
+      {
+        "session": 10,
+        "score": 79.8,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 79.8,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 79.8,
+        "grade": "B+"
+      }
+    ],
+    "arrow-py/arrow": [
+      {
+        "session": 1,
+        "score": 70.5,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 70.5,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 70.5,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 70.5,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 70.5,
+        "grade": "B"
+      }
+    ],
+    "astral-sh/ruff": [
+      {
+        "session": 1,
+        "score": 87.4,
+        "grade": "A"
+      },
+      {
+        "session": 2,
+        "score": 87.4,
+        "grade": "A"
+      },
+      {
+        "session": 10,
+        "score": 87.4,
+        "grade": "A"
+      },
+      {
+        "session": 11,
+        "score": 87.4,
+        "grade": "A"
+      },
+      {
+        "session": 12,
+        "score": 87.4,
+        "grade": "A"
+      }
+    ],
+    "astral-sh/uv": [
+      {
+        "session": 10,
+        "score": 76.9,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 76.9,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 76.9,
+        "grade": "B+"
+      }
+    ],
+    "boto/boto3": [
+      {
+        "session": 1,
+        "score": 68.2,
+        "grade": "B-"
+      },
+      {
+        "session": 2,
+        "score": 68.2,
+        "grade": "B-"
+      },
+      {
+        "session": 10,
+        "score": 68.2,
+        "grade": "B-"
+      },
+      {
+        "session": 11,
+        "score": 68.2,
+        "grade": "B-"
+      },
+      {
+        "session": 12,
+        "score": 68.2,
+        "grade": "B-"
+      }
+    ],
+    "celery/celery": [
+      {
+        "session": 1,
+        "score": 85.8,
+        "grade": "A"
+      },
+      {
+        "session": 2,
+        "score": 85.8,
+        "grade": "A"
+      },
+      {
+        "session": 10,
+        "score": 85.8,
+        "grade": "A"
+      },
+      {
+        "session": 11,
+        "score": 85.8,
+        "grade": "A"
+      },
+      {
+        "session": 12,
+        "score": 85.8,
+        "grade": "A"
+      }
+    ],
+    "dateutil/dateutil": [
+      {
+        "session": 1,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 74.3,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 74.3,
+        "grade": "B"
+      }
+    ],
+    "django/django": [
+      {
+        "session": 1,
+        "score": 84.5,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 84.5,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 84.5,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 84.5,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 84.5,
+        "grade": "A-"
+      }
+    ],
+    "docker/docker-py": [
+      {
+        "session": 1,
+        "score": 77.3,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 77.3,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 77.3,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 77.3,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 77.3,
+        "grade": "B+"
+      }
+    ],
+    "duckdb/duckdb": [
+      {
+        "session": 1,
+        "score": 77.5,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 77.5,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 77.5,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 77.5,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 77.5,
+        "grade": "B+"
+      }
+    ],
+    "encode/httpx": [
+      {
+        "session": 1,
+        "score": 80.4,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 80.4,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 80.4,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 80.4,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 80.4,
+        "grade": "A-"
+      }
+    ],
+    "encode/starlette": [
+      {
+        "session": 1,
+        "score": 77.0,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 77.0,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 77.0,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 77.0,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 77.0,
+        "grade": "B+"
+      }
+    ],
+    "fastapi/fastapi": [
+      {
+        "session": 1,
+        "score": 88.7,
+        "grade": "A"
+      },
+      {
+        "session": 2,
+        "score": 88.7,
+        "grade": "A"
+      },
+      {
+        "session": 10,
+        "score": 88.7,
+        "grade": "A"
+      },
+      {
+        "session": 11,
+        "score": 88.7,
+        "grade": "A"
+      },
+      {
+        "session": 12,
+        "score": 88.7,
+        "grade": "A"
+      }
+    ],
+    "gradio-app/gradio": [
+      {
+        "session": 10,
+        "score": 80.7,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 80.7,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 80.7,
+        "grade": "A-"
+      }
+    ],
+    "httpie/cli": [
+      {
+        "session": 1,
+        "score": 68.7,
+        "grade": "B-"
+      },
+      {
+        "session": 2,
+        "score": 68.7,
+        "grade": "B-"
+      },
+      {
+        "session": 10,
+        "score": 68.7,
+        "grade": "B-"
+      },
+      {
+        "session": 11,
+        "score": 68.7,
+        "grade": "B-"
+      },
+      {
+        "session": 12,
+        "score": 68.7,
+        "grade": "B-"
+      }
+    ],
+    "huge-success/sanic": [
+      {
+        "session": 1,
+        "score": 80.9,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 80.9,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 80.9,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 80.9,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 80.9,
+        "grade": "A-"
+      }
+    ],
+    "huggingface/datasets": [
+      {
+        "session": 10,
+        "score": 79.5,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 79.5,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 79.5,
+        "grade": "B+"
+      }
+    ],
+    "huggingface/transformers": [
+      {
+        "session": 1,
+        "score": 79.0,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 79.0,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 79.0,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 79.0,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 79.0,
+        "grade": "B+"
+      }
+    ],
+    "joke2k/faker": [
+      {
+        "session": 1,
+        "score": 77.8,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 77.8,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 77.8,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 77.8,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 77.8,
+        "grade": "B+"
+      }
+    ],
+    "jxnl/instructor": [
+      {
+        "session": 1,
+        "score": 86.4,
+        "grade": "A"
+      },
+      {
+        "session": 2,
+        "score": 86.4,
+        "grade": "A"
+      },
+      {
+        "session": 10,
+        "score": 86.4,
+        "grade": "A"
+      },
+      {
+        "session": 11,
+        "score": 86.4,
+        "grade": "A"
+      },
+      {
+        "session": 12,
+        "score": 86.4,
+        "grade": "A"
+      }
+    ],
+    "keras-team/keras": [
+      {
+        "session": 1,
+        "score": 89.8,
+        "grade": "A"
+      },
+      {
+        "session": 2,
+        "score": 89.8,
+        "grade": "A"
+      },
+      {
+        "session": 10,
+        "score": 89.8,
+        "grade": "A"
+      },
+      {
+        "session": 11,
+        "score": 89.8,
+        "grade": "A"
+      },
+      {
+        "session": 12,
+        "score": 89.8,
+        "grade": "A"
+      }
+    ],
+    "langchain-ai/langchain": [
+      {
+        "session": 1,
+        "score": 71.9,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 71.9,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 71.9,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 71.9,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 71.9,
+        "grade": "B"
+      }
+    ],
+    "langflow-ai/langflow": [
+      {
+        "session": 1,
+        "score": 82.6,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 82.6,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 82.6,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 82.6,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 82.6,
+        "grade": "A-"
+      }
+    ],
+    "litestar-org/litestar": [
+      {
+        "session": 1,
+        "score": 63.8,
+        "grade": "C+"
+      },
+      {
+        "session": 2,
+        "score": 63.8,
+        "grade": "C+"
+      },
+      {
+        "session": 10,
+        "score": 63.8,
+        "grade": "C+"
+      },
+      {
+        "session": 11,
+        "score": 63.8,
+        "grade": "C+"
+      },
+      {
+        "session": 12,
+        "score": 63.8,
+        "grade": "C+"
+      }
+    ],
+    "locustio/locust": [
+      {
+        "session": 1,
+        "score": 73.5,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 73.5,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 73.5,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 73.5,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 73.5,
+        "grade": "B"
+      }
+    ],
+    "matplotlib/matplotlib": [
+      {
+        "session": 1,
+        "score": 83.4,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 83.4,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 83.4,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 83.4,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 83.4,
+        "grade": "A-"
+      }
+    ],
+    "microsoft/markitdown": [
+      {
+        "session": 1,
+        "score": 75.6,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 75.6,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 75.6,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 75.6,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 75.6,
+        "grade": "B+"
+      }
+    ],
+    "microsoft/pyright": [
+      {
+        "session": 10,
+        "score": 74.7,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 74.7,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 74.7,
+        "grade": "B"
+      }
+    ],
+    "mitmproxy/mitmproxy": [
+      {
+        "session": 1,
+        "score": 69.8,
+        "grade": "B-"
+      },
+      {
+        "session": 2,
+        "score": 69.8,
+        "grade": "B-"
+      },
+      {
+        "session": 10,
+        "score": 69.8,
+        "grade": "B-"
+      },
+      {
+        "session": 11,
+        "score": 69.8,
+        "grade": "B-"
+      },
+      {
+        "session": 12,
+        "score": 69.8,
+        "grade": "B-"
+      }
+    ],
+    "mwaskom/seaborn": [
+      {
+        "session": 10,
+        "score": 75.5,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 75.5,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 75.5,
+        "grade": "B+"
+      }
+    ],
+    "numpy/numpy": [
+      {
+        "session": 1,
+        "score": 87.9,
+        "grade": "A"
+      },
+      {
+        "session": 2,
+        "score": 87.9,
+        "grade": "A"
+      },
+      {
+        "session": 10,
+        "score": 87.9,
+        "grade": "A"
+      },
+      {
+        "session": 11,
+        "score": 87.9,
+        "grade": "A"
+      },
+      {
+        "session": 12,
+        "score": 87.9,
+        "grade": "A"
+      }
+    ],
+    "open-webui/open-webui": [
+      {
+        "session": 1,
+        "score": 70.7,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 70.7,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 70.7,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 70.7,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 70.7,
+        "grade": "B"
+      }
+    ],
+    "openai/openai-python": [
+      {
+        "session": 1,
+        "score": 84.4,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 84.4,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 84.4,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 84.4,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 84.4,
+        "grade": "A-"
+      }
+    ],
+    "pallets/click": [
+      {
+        "session": 1,
+        "score": 81.3,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 81.3,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 81.3,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 81.3,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 81.3,
+        "grade": "A-"
+      }
+    ],
+    "pallets/flask": [
+      {
+        "session": 1,
+        "score": 81.2,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 81.2,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 81.2,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 81.2,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 81.2,
+        "grade": "A-"
+      }
+    ],
+    "pallets/jinja": [
+      {
+        "session": 1,
+        "score": 81.1,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 81.1,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 81.1,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 81.1,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 81.1,
+        "grade": "A-"
+      }
+    ],
+    "pallets/werkzeug": [
+      {
+        "session": 1,
+        "score": 77.9,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 77.9,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 77.9,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 77.9,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 77.9,
+        "grade": "B+"
+      }
+    ],
+    "pandas-dev/pandas": [
+      {
+        "session": 1,
+        "score": 75.8,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 75.8,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 75.8,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 75.8,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 75.8,
+        "grade": "B+"
+      }
+    ],
+    "paramiko/paramiko": [
+      {
+        "session": 1,
+        "score": 72.5,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 72.5,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 72.5,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 72.5,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 72.5,
+        "grade": "B"
+      }
+    ],
+    "pola-rs/polars": [
+      {
+        "session": 1,
+        "score": 83.9,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 83.9,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 83.9,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 83.9,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 83.9,
+        "grade": "A-"
+      }
+    ],
+    "pre-commit/pre-commit": [
+      {
+        "session": 10,
+        "score": 80.0,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 80.0,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 80.0,
+        "grade": "A-"
+      }
+    ],
+    "psf/black": [
+      {
+        "session": 1,
+        "score": 80.0,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 80.0,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 80.0,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 80.0,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 80.0,
+        "grade": "A-"
+      }
+    ],
+    "psf/requests": [
+      {
+        "session": 1,
+        "score": 78.6,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 78.6,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 78.6,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 78.6,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 78.6,
+        "grade": "B+"
+      }
+    ],
+    "pulumi/pulumi": [
+      {
+        "session": 1,
+        "score": 63.4,
+        "grade": "C+"
+      },
+      {
+        "session": 2,
+        "score": 63.4,
+        "grade": "C+"
+      },
+      {
+        "session": 10,
+        "score": 63.4,
+        "grade": "C+"
+      },
+      {
+        "session": 11,
+        "score": 63.4,
+        "grade": "C+"
+      },
+      {
+        "session": 12,
+        "score": 63.4,
+        "grade": "C+"
+      }
+    ],
+    "pydantic/pydantic": [
+      {
+        "session": 1,
+        "score": 92.1,
+        "grade": "A+"
+      },
+      {
+        "session": 2,
+        "score": 92.1,
+        "grade": "A+"
+      },
+      {
+        "session": 10,
+        "score": 92.1,
+        "grade": "A+"
+      },
+      {
+        "session": 11,
+        "score": 92.1,
+        "grade": "A+"
+      },
+      {
+        "session": 12,
+        "score": 92.1,
+        "grade": "A+"
+      }
+    ],
+    "pypa/pip": [
+      {
+        "session": 1,
+        "score": 69.1,
+        "grade": "B-"
+      },
+      {
+        "session": 2,
+        "score": 69.1,
+        "grade": "B-"
+      },
+      {
+        "session": 10,
+        "score": 69.1,
+        "grade": "B-"
+      },
+      {
+        "session": 11,
+        "score": 69.1,
+        "grade": "B-"
+      },
+      {
+        "session": 12,
+        "score": 69.1,
+        "grade": "B-"
+      }
+    ],
+    "pytest-dev/pytest": [
+      {
+        "session": 1,
+        "score": 84.7,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 84.7,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 84.7,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 84.7,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 84.7,
+        "grade": "A-"
+      }
+    ],
+    "python-pillow/Pillow": [
+      {
+        "session": 1,
+        "score": 66.0,
+        "grade": "B-"
+      },
+      {
+        "session": 2,
+        "score": 66.0,
+        "grade": "B-"
+      },
+      {
+        "session": 10,
+        "score": 66.0,
+        "grade": "B-"
+      },
+      {
+        "session": 11,
+        "score": 66.0,
+        "grade": "B-"
+      },
+      {
+        "session": 12,
+        "score": 66.0,
+        "grade": "B-"
+      }
+    ],
+    "python-poetry/poetry": [
+      {
+        "session": 1,
+        "score": 73.3,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 73.3,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 73.3,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 73.3,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 73.3,
+        "grade": "B"
+      }
+    ],
+    "python/mypy": [
+      {
+        "session": 1,
+        "score": 83.3,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 83.3,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 83.3,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 83.3,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 83.3,
+        "grade": "A-"
+      }
+    ],
+    "pytorch/pytorch": [
+      {
+        "session": 1,
+        "score": 63.9,
+        "grade": "C+"
+      },
+      {
+        "session": 2,
+        "score": 63.9,
+        "grade": "C+"
+      },
+      {
+        "session": 10,
+        "score": 63.9,
+        "grade": "C+"
+      },
+      {
+        "session": 11,
+        "score": 63.9,
+        "grade": "C+"
+      },
+      {
+        "session": 12,
+        "score": 63.9,
+        "grade": "C+"
+      }
+    ],
+    "saltstack/salt": [
+      {
+        "session": 1,
+        "score": 83.5,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 83.5,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 83.5,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 83.5,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 83.5,
+        "grade": "A-"
+      }
+    ],
+    "samuelcolvin/watchfiles": [
+      {
+        "session": 1,
+        "score": 80.4,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 80.4,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 80.4,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 80.4,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 80.4,
+        "grade": "A-"
+      }
+    ],
+    "scikit-learn/scikit-learn": [
+      {
+        "session": 1,
+        "score": 80.5,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 80.5,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 80.5,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 80.5,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 80.5,
+        "grade": "A-"
+      }
+    ],
+    "scrapy/scrapy": [
+      {
+        "session": 1,
+        "score": 72.1,
+        "grade": "B"
+      },
+      {
+        "session": 2,
+        "score": 72.1,
+        "grade": "B"
+      },
+      {
+        "session": 10,
+        "score": 72.1,
+        "grade": "B"
+      },
+      {
+        "session": 11,
+        "score": 72.1,
+        "grade": "B"
+      },
+      {
+        "session": 12,
+        "score": 72.1,
+        "grade": "B"
+      }
+    ],
+    "semgrep/semgrep": [
+      {
+        "session": 1,
+        "score": 75.7,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 75.7,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 75.7,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 75.7,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 75.7,
+        "grade": "B+"
+      }
+    ],
+    "sqlalchemy/sqlalchemy": [
+      {
+        "session": 1,
+        "score": 75.5,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 75.5,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 75.5,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 75.5,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 75.5,
+        "grade": "B+"
+      }
+    ],
+    "streamlit/streamlit": [
+      {
+        "session": 10,
+        "score": 66.9,
+        "grade": "B-"
+      },
+      {
+        "session": 11,
+        "score": 66.9,
+        "grade": "B-"
+      },
+      {
+        "session": 12,
+        "score": 66.9,
+        "grade": "B-"
+      }
+    ],
+    "tiangolo/typer": [
+      {
+        "session": 1,
+        "score": 84.1,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 84.1,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 84.1,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 84.1,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 84.1,
+        "grade": "A-"
+      }
+    ],
+    "tornadoweb/tornado": [
+      {
+        "session": 1,
+        "score": 67.0,
+        "grade": "B-"
+      },
+      {
+        "session": 2,
+        "score": 67.0,
+        "grade": "B-"
+      },
+      {
+        "session": 10,
+        "score": 67.0,
+        "grade": "B-"
+      },
+      {
+        "session": 11,
+        "score": 67.0,
+        "grade": "B-"
+      },
+      {
+        "session": 12,
+        "score": 67.0,
+        "grade": "B-"
+      }
+    ],
+    "tqdm/tqdm": [
+      {
+        "session": 1,
+        "score": 78.5,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 78.5,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 78.5,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 78.5,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 78.5,
+        "grade": "B+"
+      }
+    ],
+    "vllm-project/vllm": [
+      {
+        "session": 1,
+        "score": 78.3,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 78.3,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 78.3,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 78.3,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 78.3,
+        "grade": "B+"
+      }
+    ],
+    "yaml/pyyaml": [
+      {
+        "session": 1,
+        "score": 76.2,
+        "grade": "B+"
+      },
+      {
+        "session": 2,
+        "score": 76.2,
+        "grade": "B+"
+      },
+      {
+        "session": 10,
+        "score": 76.2,
+        "grade": "B+"
+      },
+      {
+        "session": 11,
+        "score": 76.2,
+        "grade": "B+"
+      },
+      {
+        "session": 12,
+        "score": 76.2,
+        "grade": "B+"
+      }
+    ],
+    "yt-dlp/yt-dlp": [
+      {
+        "session": 1,
+        "score": 82.9,
+        "grade": "A-"
+      },
+      {
+        "session": 2,
+        "score": 82.9,
+        "grade": "A-"
+      },
+      {
+        "session": 10,
+        "score": 82.9,
+        "grade": "A-"
+      },
+      {
+        "session": 11,
+        "score": 82.9,
+        "grade": "A-"
+      },
+      {
+        "session": 12,
+        "score": 82.9,
+        "grade": "A-"
+      }
+    ]
+  },
+  "summary": [
+    {
+      "session": 1,
+      "project_count": 65,
+      "avg_score": 77.4,
+      "min_score": 63.4,
+      "max_score": 94.4
+    },
+    {
+      "session": 2,
+      "project_count": 65,
+      "avg_score": 77.4,
+      "min_score": 63.4,
+      "max_score": 94.4
+    },
+    {
+      "session": 10,
+      "project_count": 75,
+      "avg_score": 77.3,
+      "min_score": 63.4,
+      "max_score": 94.4
+    },
+    {
+      "session": 11,
+      "project_count": 75,
+      "avg_score": 77.3,
+      "min_score": 63.4,
+      "max_score": 94.4
+    },
+    {
+      "session": 12,
+      "project_count": 75,
+      "avg_score": 77.3,
+      "min_score": 63.4,
+      "max_score": 94.4
+    }
+  ]
+}

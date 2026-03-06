@@ -12,6 +12,7 @@ Commands
     awake-lb seed [--session N] [--db PATH]
     awake-lb trends [--limit N] [--sessions N]
     awake-lb score-trends [--format FMT] [--top N] [--category CAT] [--write]
+    awake-lb movers [--format FMT] [--write] [--data-dir PATH]
     awake-lb categories
     awake-lb stats
     awake-lb stats-summary [--format FMT] [--write] [--data-dir PATH]
@@ -477,6 +478,31 @@ def cmd_score_trends(args: argparse.Namespace) -> None:
         print(f"\nReport written to {out_path} and {json_path}")
 
 
+def cmd_movers(args: argparse.Namespace) -> None:
+    """Show movers and shakers -- grade boundaries, new entrants, session diffs."""
+    from src.movers import generate_movers_report, export_trends_json
+
+    data_dir = Path(args.data_dir)
+    report = generate_movers_report(data_dir=data_dir)
+
+    fmt = args.format
+    if fmt == "json":
+        print(report.to_json())
+    else:
+        print(report.to_markdown())
+
+    if args.write:
+        out_path = data_dir / "movers_report.md"
+        out_path.write_text(report.to_markdown(), encoding="utf-8")
+        json_path = data_dir / "movers_report.json"
+        json_path.write_text(report.to_json() + "\n", encoding="utf-8")
+        # Also export website trends data
+        trends_path = Path("website/data/trends.json")
+        export_trends_json(data_dir, output=trends_path)
+        print(f"\nReport written to {out_path} and {json_path}")
+        print(f"Website trends written to {trends_path}")
+
+
 def cmd_stats_summary(args: argparse.Namespace) -> None:
     """Generate aggregate stats summary from leaderboard data."""
     from src.stats_summary import generate_stats_report
@@ -653,6 +679,15 @@ def build_parser() -> argparse.ArgumentParser:
     p_st.add_argument("--write", action="store_true", default=False,
                       help="Write report to data/trend_report.md and .json")
 
+    # movers
+    p_mv = sub.add_parser("movers", help="Show movers and shakers report")
+    p_mv.add_argument("--format", choices=["markdown", "json"], default="markdown",
+                      help="Output format (default: markdown)")
+    p_mv.add_argument("--data-dir", dest="data_dir", default="data",
+                      help="Data directory for score_history.json (default: data)")
+    p_mv.add_argument("--write", action="store_true", default=False,
+                      help="Write report + website trends data")
+
     return parser
 
 
@@ -681,6 +716,7 @@ def main(argv: Optional[list[str]] = None) -> None:
         "badge": cmd_badge,
         "refresh-scores": cmd_refresh_scores,
         "score-trends": cmd_score_trends,
+        "movers": cmd_movers,
         "generate-json": cmd_generate_json,
     }
 
